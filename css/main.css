@@ -8827,17 +8827,25 @@ body {
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
   background: url("../images/bg.jpg");
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* line 63, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 header .top-header .logo {
   margin: 44px 0px 0px 3px;
 }
-/* line 66, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 header .top-header .number {
   margin: 40px 0px 0px 0px;
 }
-/* line 68, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 header .top-header .number p {
   font-size: 16px;
   line-height: 18px;
@@ -8845,11 +8853,11 @@ header .top-header .number p {
   font-weight: 700;
   color: #0065a0;
 }
-/* line 74, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 header .top-header .number p span {
   text-transform: uppercase;
 }
-/* line 78, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 header .top-header .number h3 {
   font-size: 32px;
   line-height: 40px;
@@ -8857,7 +8865,7 @@ header .top-header .number h3 {
   color: #fff;
   margin: 0px;
 }
-/* line 88, ../sass/main.scss */
+/* line 96, ../sass/main.scss */
 header .title h1 {
   font-size: 53px;
   font-weight: 700;
@@ -8865,17 +8873,83 @@ header .title h1 {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-/* line 95, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 header .title p {
   font-size: 24px;
   font-weight: 700;
   color: #0065a0;
 }
-/* line 101, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 header .wrapper {
   margin-top: 39px;
 }
-/* line 104, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
+header .wrapper .calculation {
+  position: relative;
+  height: 430px;
+}
+/* line 114, ../sass/main.scss */
+header .wrapper .calculation .chuvak {
+  position: absolute;
+  top: 79px;
+  left: -16px;
+}
+/* line 119, ../sass/main.scss */
+header .wrapper .calculation .wordblock {
+  position: absolute;
+  top: 5px;
+  left: 66px;
+  display: inline-block;
+  width: 535px;
+  height: 181px;
+  background: url("../images/bg-word.png") no-repeat center;
+}
+/* line 127, ../sass/main.scss */
+header .wrapper .calculation .wordblock p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 30px 0px 0px 78px;
+  color: #0065a0;
+}
+/* line 133, ../sass/main.scss */
+header .wrapper .calculation .wordblock p span {
+  text-transform: uppercase;
+}
+/* line 138, ../sass/main.scss */
+header .wrapper .calculation .btn-calc {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  cursor: pointer;
+}
+/* line 143, ../sass/main.scss */
+header .wrapper .calculation .btn-calc a {
+  display: block;
+  font-size: 17px;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffeb80;
+  padding-left: 28px;
+  width: 216px;
+  height: 50px;
+  background-color: #50a2cf;
+  border-radius: 24px;
+  box-shadow: inset 0 -3px 0 #188acc;
+  background-image: url("../images/calc.png");
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+}
+/* line 155, ../sass/main.scss */
+header .wrapper .calculation .btn-calc a:hover {
+  background: #64add4;
+  background-image: url("../images/calc.png");
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+  text-decoration: none;
+}
+/* line 167, ../sass/main.scss */
 header .wrapper .wrap-forma .forma {
   position: relative;
   width: 350px;
@@ -8886,18 +8960,18 @@ header .wrapper .wrap-forma .forma {
   overflow: hidden;
   right: -10px;
 }
-/* line 113, ../sass/main.scss */
+/* line 176, ../sass/main.scss */
 header .wrapper .wrap-forma .forma p {
   font-size: 19px;
   font-weight: 700;
   color: #0065a0;
   margin: 34px 0px 20px 0px;
 }
-/* line 118, ../sass/main.scss */
+/* line 181, ../sass/main.scss */
 header .wrapper .wrap-forma .forma p span {
   text-transform: uppercase;
 }
-/* line 122, ../sass/main.scss */
+/* line 185, ../sass/main.scss */
 header .wrapper .wrap-forma .forma input {
   margin-bottom: 10px;
   font-size: 15px;
@@ -8909,20 +8983,79 @@ header .wrapper .wrap-forma .forma input {
   border-radius: 20px;
   border: none;
 }
-/* line 129, ../sass/main.scss */
+/* line 192, ../sass/main.scss */
+header .wrapper .wrap-forma .forma .reg_pass {
+  margin: 15px 0px 0px;
+}
+/* line 194, ../sass/main.scss */
+header .wrapper .wrap-forma .forma .reg_pass a {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #0065a0;
+}
+/* line 199, ../sass/main.scss */
+header .wrapper .wrap-forma .forma .reg_pass a:hover {
+  text-decoration: none;
+}
+/* line 203, ../sass/main.scss */
+header .wrapper .wrap-forma .forma .reg_pass span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0065a0;
+  margin: 0px 15px;
+}
+/* line 211, ../sass/main.scss */
+header .wrapper .wrap-forma .forma #remember {
+  display: none;
+  opacity: 0;
+}
+/* line 214, ../sass/main.scss */
+header .wrapper .wrap-forma .forma #remember + label {
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  margin: 15px 0px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  padding-left: 50px;
+}
+/* line 224, ../sass/main.scss */
+header .wrapper .wrap-forma .forma #remember + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -4px 8px 0 0;
+  vertical-align: middle;
+  background: #fff;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* line 235, ../sass/main.scss */
+header .wrapper .wrap-forma .forma #remember:checked + label span {
+  background-color: #f7d420;
+}
+/* line 239, ../sass/main.scss */
 header .wrapper .wrap-forma .forma button {
   border: none;
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffeb80;
+  text-transform: uppercase;
   width: 279px;
-  height: 57px;
+  height: 60px;
   background-color: #50a2cf;
   border-radius: 29px;
-  box-shadow: 0 3px 0 #188acc;
+  box-shadow: inset 0 -3px 0 #188acc;
 }
-/* line 132, ../sass/main.scss */
+/* line 246, ../sass/main.scss */
 header .wrapper .wrap-forma .forma button:hover {
   background: #64add4;
 }
-/* line 136, ../sass/main.scss */
+/* line 250, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .acces {
   height: 75px;
   text-align: center;
@@ -8931,7 +9064,7 @@ header .wrapper .wrap-forma .forma .acces {
   bottom: 0;
   background-color: #efd51d;
 }
-/* line 143, ../sass/main.scss */
+/* line 257, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .acces a {
   display: inline-block;
   font-size: 14px;
@@ -8939,4 +9072,14 @@ header .wrapper .wrap-forma .forma .acces a {
   color: #0065a0;
   text-decoration: underline;
   margin-top: 26px;
+}
+/* line 264, ../sass/main.scss */
+header .wrapper .wrap-forma .forma .acces a:hover {
+  text-decoration: none;
+}
+/* line 273, ../sass/main.scss */
+header .copy p {
+  font-size: 13px;
+  color: #0065a0;
+  margin: 28px 0px 0px 0px;
 }

@@ -8,9 +8,11 @@
     <title>Express money</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="SHORTCUT ICON" href="images/favicon.png" type="image/png">     
     <link href="css/main.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="all" href="fancybox/source/jquery.fancybox.css"> 
+    <link href="css/jquery-ui.css" rel="stylesheet">   
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -48,7 +50,17 @@
           <div class="row">
             <div class="col-xs-8">
               <div class="calculation">
-                
+                <div class="chuvak">
+                  <img src="images/chuvak.png" alt="">
+                </div>
+                <div class="wordblock">
+                  <p><span>Просто оставьте заявку</span> в этой форме и мы<br> 
+                  позвоним Вам в ближайшее время, что бы<br> 
+                  договорится об условиях передачи карты.</p>
+                </div>
+                <div class="btn-calc">
+                  <a href="#">калькулятор</a>
+                </div>
               </div>
             </div>
             <div class="col-xs-4">
@@ -58,11 +70,11 @@
                   <form action="">
                     <input type="phone" name="phone" placeholder="Ваш телефон">
                     <input type="password" name="password" placeholder="Ваш пароль">
-                    <div>
-                      <a href="#">Забыли пароль?</a> / <a href="#">Регистрация</a>
+                    <div class="reg_pass">
+                      <a href="#">Забыли пароль?</a> <span>/</span> <a href="#">Регистрация</a>
                     </div>
                     <input type="checkbox" name="remember" id="remember">
-                    <label for="remember">Запомнить меня</label>
+                    <label for="remember" class="remember"><span></span>Запомнить меня</label>
                     <button>Войти</button>
                   </form>
                   <div class="acces">
@@ -82,10 +94,15 @@
         </div>
       </div>
     </header>
-
+    <!-- Pop-up -->
+    <div id="pop-up">
+      
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+    <script src="js/jquery-ui.js"></script>
   </body>
 </html>
