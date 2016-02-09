@@ -1,0 +1,156 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+$textcolor: #0065a0;
+
+@mixin button($width,$height,$buttoncolor,$buttonradius){
+	width: $width;
+	height: $height;
+	background-color: $buttoncolor;
+	border-radius: $buttonradius;
+	box-shadow: 0 3px 0 #188acc;
+}
+
+@mixin input($width,$height,$inputradius){
+	width: $width;
+	height: $height;
+	background-color: #fff;
+	border-radius: $inputradius;
+	border:none;	
+}
+
+.container{
+	width:1170px;
+}
+
+input:focus,
+button,
+button:active,
+button:focus,
+span:focus {
+  outline: 0;
+}
+
+textarea,
+textarea:focus,
+textarea:active {
+  border: 0;
+  outline: 0;
+  resize: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	box-sizing:border-box;
+	-webkit-text-size-adjust:100%;
+	background:url('../images/bg.jpg');
+}
+
+header{
+	.top-header{
+		.logo{
+			margin: 44px 0px 0px 3px;
+		}
+		.number{
+			margin: 40px 0px 0px 0px;
+			p{
+				font-size: 16px;
+				line-height: 18px;
+				margin: 0px;
+				font-weight: 700;
+				color: $textcolor;
+				span{
+					text-transform: uppercase;
+				}
+			}
+			h3{
+				font-size: 32px;
+				line-height: 40px;
+				font-weight: 700;
+				color: #fff;
+				margin: 0px;
+			}
+		}		
+	}
+	.title{
+		h1{
+			font-size: 53px;
+			font-weight: 700;
+			color: $textcolor;
+			text-transform: uppercase;
+			margin-bottom: 15px;
+		}
+		p{
+			font-size: 24px;
+			font-weight: 700;
+			color: $textcolor;			
+		}
+	}
+	.wrapper{
+		margin-top: 39px;
+		.wrap-forma{
+			.forma{
+				position: relative;
+				width: 350px;
+				height: 430px;
+				background-color: #ffeb80;
+				border-radius: 40px;
+				box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
+				overflow: hidden;
+				right: -10px;
+				p{
+					font-size: 19px;
+					font-weight: 700;
+					color: $textcolor;
+					margin: 34px 0px 20px 0px;
+					span{
+						text-transform: uppercase;
+					}
+				}
+				input{
+					margin-bottom: 10px;
+					font-size: 15px;
+					color: #999;
+					padding-left: 20px;
+					@include input(279px,39px,20px);
+				}
+				button{
+					border:none;
+					@include button(279px,57px,#50a2cf,29px);
+					&:hover{
+						background:lighten(#50a2cf,5%);
+					}
+				}
+				.acces{
+					height: 75px;
+					text-align: center;
+					position:absolute;
+					width: 100%;
+					bottom:0;
+					background-color: #efd51d;
+					a{
+						display: inline-block;
+						font-size: 14px;
+						font-weight: 600;
+						color: $textcolor;
+						text-decoration: underline;
+						margin-top: 26px;
+					}
+				}			
+			}
+		}		
+	}
+
+}

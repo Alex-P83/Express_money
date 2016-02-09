@@ -8791,3 +8791,152 @@ button.close {
     display: none !important;
   }
 }
+/* line 28, ../sass/main.scss */
+.container {
+  width: 1170px;
+}
+
+/* line 32, ../sass/main.scss */
+input:focus,
+button,
+button:active,
+button:focus,
+span:focus {
+  outline: 0;
+}
+
+/* line 40, ../sass/main.scss */
+textarea,
+textarea:focus,
+textarea:active {
+  border: 0;
+  outline: 0;
+  resize: none;
+}
+
+/* line 48, ../sass/main.scss */
+button {
+  border: none;
+  cursor: pointer;
+}
+
+/* line 53, ../sass/main.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  background: url("../images/bg.jpg");
+}
+
+/* line 63, ../sass/main.scss */
+header .top-header .logo {
+  margin: 44px 0px 0px 3px;
+}
+/* line 66, ../sass/main.scss */
+header .top-header .number {
+  margin: 40px 0px 0px 0px;
+}
+/* line 68, ../sass/main.scss */
+header .top-header .number p {
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0px;
+  font-weight: 700;
+  color: #0065a0;
+}
+/* line 74, ../sass/main.scss */
+header .top-header .number p span {
+  text-transform: uppercase;
+}
+/* line 78, ../sass/main.scss */
+header .top-header .number h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0px;
+}
+/* line 88, ../sass/main.scss */
+header .title h1 {
+  font-size: 53px;
+  font-weight: 700;
+  color: #0065a0;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+/* line 95, ../sass/main.scss */
+header .title p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0065a0;
+}
+/* line 101, ../sass/main.scss */
+header .wrapper {
+  margin-top: 39px;
+}
+/* line 104, ../sass/main.scss */
+header .wrapper .wrap-forma .forma {
+  position: relative;
+  width: 350px;
+  height: 430px;
+  background-color: #ffeb80;
+  border-radius: 40px;
+  box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
+  overflow: hidden;
+  right: -10px;
+}
+/* line 113, ../sass/main.scss */
+header .wrapper .wrap-forma .forma p {
+  font-size: 19px;
+  font-weight: 700;
+  color: #0065a0;
+  margin: 34px 0px 20px 0px;
+}
+/* line 118, ../sass/main.scss */
+header .wrapper .wrap-forma .forma p span {
+  text-transform: uppercase;
+}
+/* line 122, ../sass/main.scss */
+header .wrapper .wrap-forma .forma input {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #999;
+  padding-left: 20px;
+  width: 279px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+/* line 129, ../sass/main.scss */
+header .wrapper .wrap-forma .forma button {
+  border: none;
+  width: 279px;
+  height: 57px;
+  background-color: #50a2cf;
+  border-radius: 29px;
+  box-shadow: 0 3px 0 #188acc;
+}
+/* line 132, ../sass/main.scss */
+header .wrapper .wrap-forma .forma button:hover {
+  background: #64add4;
+}
+/* line 136, ../sass/main.scss */
+header .wrapper .wrap-forma .forma .acces {
+  height: 75px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #efd51d;
+}
+/* line 143, ../sass/main.scss */
+header .wrapper .wrap-forma .forma .acces a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0065a0;
+  text-decoration: underline;
+  margin-top: 26px;
+}
