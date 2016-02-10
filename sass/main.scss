@@ -100,6 +100,9 @@ header{
 			}
 		}		
 	}
+	.content{
+		height: 595px;
+	}
 	.title{
 		h1{
 			font-size: 53px;
@@ -115,7 +118,7 @@ header{
 		}
 	}
 	.wrapper{
-		margin-top: 39px;
+		margin-top: 38px;
 		.calculation{
 			position:relative;
 			height: 430px;
@@ -277,14 +280,17 @@ header{
 			}
 		}		
 	}
+
+}
+
+footer{
 	.copy{
-		p{
-			font-size: 13px;
-			color: $textcolor;
-			margin: 28px 0px 0px 0px;
+	p{
+		font-size: 13px;
+		color: $textcolor;
+		margin: 28px 0px 0px 0px;
 		}
 	}
-
 }
 
 #pop-up{
@@ -298,6 +304,7 @@ header{
 		cursor: pointer;
 	}		
 	.calculator{
+		position:relative;
 		width: 474px;
 		height: 370px;
 		background-color: #ffeb80;
@@ -306,15 +313,15 @@ header{
 		&:after{
 			position:absolute;
 			content: url('../images/cloud1.png');
-			top: 5px;
-			left: 50px;
+			top: -35px;
+			left: -160px;
 			z-index: -1;
 		}
 		&:before{
 			position:absolute;
 			content: url('../images/cloud2.png');
-			bottom: 25px;
-			right: 50px;
+			bottom: -25px;
+			right: -60px;
 			z-index: -1;
 		}		
 		h3{
@@ -336,6 +343,15 @@ header{
 				font-weight: 400;
 				color: #999;
 				margin-right: 16px;
+			}
+			.ui-state-default,.ui-state-hover,.ui-state-active,.ui-state-focus {
+				width: 18px;
+				height: 18px;
+				background-color: #f6e786;
+				box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+				border-radius: 50%;
+				border:none;
+				cursor: pointer;	
 			}
 			#slider-range-max2,#slider-range-max1{
 				width: 240px;
@@ -376,3 +392,326 @@ header{
 	}	
 }
 
+//////USERCABINET////////////
+.content{
+	position:relative;
+	.container{
+		position:relative;
+		height: 100%;
+	}
+	.wrap-tabs{
+		margin-top: 30px;
+		#tabs1{
+			background:none;
+			.hb{
+				height: 440px;
+			}
+			.ui-state-default,.ui-tabs-active,.ui-tabs-hover,.ui-state-focus {
+				background:#caecf2;
+				border:none;
+					& a{
+						font-size: 15px;
+						font-weight: 400;
+						color: $textcolor;
+						outline: none;
+						padding:13px 23px;	
+					}
+				}
+			.ui-state-active{
+				background:#fff;
+			}	
+			.ui-widget-header{
+				background:none;
+				border:none;
+			}
+			.ui-tabs, .ui-tabs-panel{
+				background:#fff;
+				border-radius: 0px 10px 10px 10px;
+				box-shadow: 0 19px 32px rgba(31, 31, 31, 0.1);
+				padding:30px;
+			}
+			.ui-tabs-nav{
+				padding:0;
+			}
+			.ui-corner-top{
+				border-radius:10px 10px 0px 0px;
+			}
+
+			#tabs-1{
+				.photo{
+					display: inline-block;
+					text-align: left;
+				}
+			}
+			.datauser{
+				margin-bottom: 15px;
+				p{
+					font-size: 13px;
+					font-weight: 300;
+					color: #989898;
+					margin: 0px;
+				}
+				h3{
+					font-size: 16px;
+					font-weight: 700;
+					color: $textcolor;
+					margin: 5px 0px;
+				}
+			}
+			.details{
+				margin-top: 55px;
+				h3{
+					font-size: 16px;
+					font-weight: 700;
+					color: $textcolor;
+					margin: 5px 0px;
+				}
+				p{
+					font-size: 14px;
+					font-weight: 400;
+					color: #989898;
+					margin: 0px;
+				}			
+			}
+			.photo{
+				p{
+					font-size: 13px;
+					font-weight: 300;
+					color: #989898;
+				}	
+			}				
+		}
+	}
+	.btn-calc{
+		position: absolute;
+		right:15px;
+		bottom:0px;
+		cursor: pointer;
+		a{
+			display:block;
+			font-size: 17px;
+			line-height: 50px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #ffeb80;
+			padding-left: 28px;
+			@include button(326px,50px,#50a2cf,24px);
+			background-image:url('../images/calc.png');
+			background-repeat: no-repeat;
+			background-position: center right 20px;
+			&:hover{
+				background:$textcolor;
+				background-image:url('../images/calc.png');
+				background-repeat: no-repeat;
+				background-position: center right 20px;
+				text-decoration: none;					
+			}					
+		}
+
+	}	
+}
+
+
+//////ADMINCABINET////////////
+.content{
+	position:relative;
+	.container{
+		position:relative;
+		height: 100%;
+	}
+	.wrap-tabs{
+		margin-top: 30px;
+		#tabs2{
+			background:none;
+			.hb{
+				height: 440px;
+			}
+			.mt{
+				margin-top: 100px;
+			}
+			.ui-state-default,.ui-tabs-active,.ui-tabs-hover,.ui-state-focus {
+				background:#caecf2;
+				border:none;
+				padding-bottom: 0px;
+					& a{
+						font-size: 15px;
+						font-weight: 400;
+						color: $textcolor;
+						outline: none;
+						padding:13px 23px;	
+					}
+				}
+			.ui-state-active{
+				background-color: #f1e68b;
+			}	
+			.ui-widget-header{
+				background:none;
+				border:none;
+			}
+			.ui-tabs, .ui-tabs-panel{
+				background:#fff;
+				border-radius: 0px 10px 10px 10px;
+				box-shadow: 0 19px 32px rgba(31, 31, 31, 0.1);
+				padding:30px;
+			}
+			.ui-tabs-nav{
+				padding:0;
+			}
+			.ui-corner-top{
+				border-radius:10px 10px 0px 0px;
+			}
+			.btn-admin{
+				display: inline-block;
+				margin:15px 0px;
+				cursor: pointer;
+				a{
+					display:block;
+					font-size: 17px;
+					line-height: 60px;
+					font-weight: 700;
+					text-transform: uppercase;
+					color: #ffeb80;
+					@include button(329px,60px,#50a2cf,29px);
+					&:hover{
+						background:$textcolor;
+						text-decoration: none;					
+					}					
+				}
+
+			}			
+					
+		}
+	}
+	.btn-calc{
+		position: absolute;
+		right:15px;
+		bottom:0px;
+		cursor: pointer;
+		a{
+			display:block;
+			font-size: 17px;
+			line-height: 50px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #ffeb80;
+			padding-left: 28px;
+			@include button(326px,50px,#50a2cf,24px);
+			background-image:url('../images/calc.png');
+			background-repeat: no-repeat;
+			background-position: center right 20px;
+			&:hover{
+				background:$textcolor;
+				background-image:url('../images/calc.png');
+				background-repeat: no-repeat;
+				background-position: center right 20px;
+				text-decoration: none;					
+			}					
+		}
+
+	}	
+}
+
+
+//////MANAGERCABINET////////////
+.content{
+	position:relative;
+	.container{
+		position:relative;
+		height: 100%;
+	}
+	.wrap-tabs{
+		margin-top: 30px;
+		#tabs3{
+			background:none;
+			.hb{
+				height: 440px;
+			}
+			.mt{
+				margin-top: 100px;
+			}
+			.ui-state-default,.ui-tabs-active,.ui-tabs-hover,.ui-state-focus {
+				background:#caecf2;
+				border:none;
+				padding-bottom: 0px;
+					& a{
+						font-size: 15px;
+						font-weight: 400;
+						color: $textcolor;
+						outline: none;
+						padding:13px 23px;	
+					}
+				}
+
+			.ui-state-active{
+				background-color: #83d076;
+				& a{
+					color: #fff;
+				}
+			}	
+			.ui-widget-header{
+				background:none;
+				border:none;
+			}
+			.ui-tabs, .ui-tabs-panel{
+				background:#fff;
+				border-radius: 0px 10px 10px 10px;
+				box-shadow: 0 19px 32px rgba(31, 31, 31, 0.1);
+				padding:30px;
+			}
+			.ui-tabs-nav{
+				padding:0;
+			}
+			.ui-corner-top{
+				border-radius:10px 10px 0px 0px;
+			}
+			.btn-admin{
+				display: inline-block;
+				margin:15px 0px;
+				cursor: pointer;
+				a{
+					display:block;
+					text-align: center;
+					font-size: 17px;
+					line-height: 60px;
+					font-weight: 700;
+					text-transform: uppercase;
+					color: #ffeb80;
+					@include button(329px,60px,#50a2cf,29px);
+					&:hover{
+						background:$textcolor;
+						text-decoration: none;					
+					}					
+				}
+
+			}			
+					
+		}
+	}
+	.btn-calc{
+		position: absolute;
+		right:15px;
+		bottom:0px;
+		cursor: pointer;
+		a{
+			display:block;
+			font-size: 17px;
+			line-height: 50px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #ffeb80;
+			padding-left: 28px;
+			@include button(326px,50px,#50a2cf,24px);
+			background-image:url('../images/calc.png');
+			background-repeat: no-repeat;
+			background-position: center right 20px;
+			&:hover{
+				background:$textcolor;
+				background-image:url('../images/calc.png');
+				background-repeat: no-repeat;
+				background-position: center right 20px;
+				text-decoration: none;					
+			}					
+		}
+
+	}	
+}

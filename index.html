@@ -9,10 +9,11 @@
 
     <!-- Bootstrap -->
     <link rel="SHORTCUT ICON" href="images/favicon.png" type="image/png">     
-    <link href="css/main.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" media="all" href="fancybox/source/jquery.fancybox.css"> 
-    <link href="css/jquery-ui.css" rel="stylesheet">   
+    <link href="css/jquery-ui.css" rel="stylesheet"> 
+    <link href="css/main.css" rel="stylesheet">      
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,7 +30,9 @@
           <div class="row">
             <div class="col-xs-4">
               <div class="logo">
-                <img src="images/logo.png" alt="">
+                <a href="#">
+                  <img src="images/logo.png" alt="">
+                </a>
               </div>
             </div>
             <div class="col-xs-8 text-right">
@@ -41,59 +44,67 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="title">
-          <h1>Вам срочно понадобились деньги?</h1>
-          <p>Моментальные займы для Вас на карты до 100 000 рублей!</p>
-        </div>
-        <div class="wrapper">
-          <div class="row">
-            <div class="col-xs-8">
-              <div class="calculation">
-                <div class="chuvak">
-                  <img src="images/chuvak.png" alt="">
-                </div>
-                <div class="wordblock">
-                  <p><span>Просто оставьте заявку</span> в этой форме и мы<br> 
-                  позвоним Вам в ближайшее время, что бы<br> 
-                  договорится об условиях передачи карты.</p>
-                </div>
-                <div class="btn-calc">
-                  <a href="#pop-up" class="pop-up">калькулятор</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-4">
-              <div class="wrap-forma">
-                <div class="forma text-center">
-                  <p>Войти в <span>личный кабинет</span></p>
-                  <form action="">
-                    <input type="phone" name="phone" placeholder="Ваш телефон">
-                    <input type="password" name="password" placeholder="Ваш пароль">
-                    <div class="reg_pass">
-                      <a href="#">Забыли пароль?</a> <span>/</span> <a href="#">Регистрация</a>
-                    </div>
-                    <input type="checkbox" name="remember" id="remember">
-                    <label for="remember" class="remember"><span></span>Запомнить меня</label>
-                    <button>Войти</button>
-                  </form>
-                  <div class="acces">
-                    <a href="#">Получить доступ в личный кабинет</a>
+      <!-- Content -->
+      <div class="content">
+        <div class="container">
+          <div class="title">
+            <h1>Вам срочно понадобились деньги?</h1>
+            <p>Моментальные займы для Вас на карты до 100 000 рублей!</p>
+          </div>
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-xs-8">
+                <div class="calculation">
+                  <div class="chuvak">
+                    <img src="images/chuvak.png" alt="">
+                  </div>
+                  <div class="wordblock">
+                    <p><span>Просто оставьте заявку</span> в этой форме и мы<br> 
+                    позвоним Вам в ближайшее время, что бы<br> 
+                    договорится об условиях передачи карты.</p>
+                  </div>
+                  <div class="btn-calc">
+                    <a href="#pop-up" class="pop-up">калькулятор</a>
                   </div>
                 </div>
               </div>
-            </div>          
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="copy text-center">
-                <p>Copyright © 2016 Экспресс мани</p>
-              </div>
+              <div class="col-xs-4">
+                <div class="wrap-forma">
+                  <div class="forma text-center">
+                    <p>Войти в <span>личный кабинет</span></p>
+                    <form action="">
+                      <input type="phone" name="phone" placeholder="Ваш телефон">
+                      <input type="password" name="password" placeholder="Ваш пароль">
+                      <div class="reg_pass">
+                        <a href="#">Забыли пароль?</a> <span>/</span> <a href="#">Регистрация</a>
+                      </div>
+                      <input type="checkbox" name="remember" id="remember">
+                      <label for="remember" class="remember"><span></span>Запомнить меня</label>
+                      <button>Войти</button>
+                    </form>
+                    <div class="acces">
+                      <a href="#">Получить доступ в личный кабинет</a>
+                    </div>
+                  </div>
+                </div>
+              </div>          
             </div>
           </div>
-        </div>
+        </div>        
       </div>
     </header>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="copy text-center">
+                  <p>Copyright © 2016 Экспресс мани</p>
+                </div>
+              </div>
+            </div>        
+      </div>
+    </footer>
     <!-- Pop-up -->
     <div id="pop-up" class="text-center">
       <div class="fb-close">

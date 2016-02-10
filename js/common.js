@@ -2,7 +2,7 @@
   $(document).ready(function() {
     $(".pop-up").fancybox({
         closeBtn: false,
-        // wrapCSS:'wrapPopup'     
+        // wrapCSS:'wrapPopup'    
     });
     $(".fb-close").click(function(){
       $.fancybox.close();
@@ -44,9 +44,20 @@
   });
 
  
-
 //Selectmenu
 
   $(function() {
     $( "#selectmenu1" ).selectmenu();
-  });    
+  });   
+
+//Tabs
+
+   $(document).ready(function() {
+    $(function() {
+      $( "#tabs1" ).tabs();
+      $( "#tabs2" ).tabs();
+      $( "#tabs3" ).tabs();
+      $( "#tabs4" ).tabs();
+    });      
+  }); 
+  

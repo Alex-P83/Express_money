@@ -8874,7 +8874,11 @@ header .top-header .number h3 {
   color: #fff;
   margin: 0px;
 }
-/* line 104, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
+header .content {
+  height: 595px;
+}
+/* line 107, ../sass/main.scss */
 header .title h1 {
   font-size: 53px;
   font-weight: 700;
@@ -8882,28 +8886,28 @@ header .title h1 {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-/* line 111, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 header .title p {
   font-size: 24px;
   font-weight: 700;
   color: #0065a0;
 }
-/* line 117, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
 header .wrapper {
-  margin-top: 39px;
+  margin-top: 38px;
 }
-/* line 119, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 header .wrapper .calculation {
   position: relative;
   height: 430px;
 }
-/* line 122, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 header .wrapper .calculation .chuvak {
   position: absolute;
   top: 79px;
   left: -16px;
 }
-/* line 127, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 header .wrapper .calculation .wordblock {
   position: absolute;
   top: 5px;
@@ -8913,7 +8917,7 @@ header .wrapper .calculation .wordblock {
   height: 181px;
   background: url("../images/bg-word.png") no-repeat center;
 }
-/* line 135, ../sass/main.scss */
+/* line 138, ../sass/main.scss */
 header .wrapper .calculation .wordblock p {
   font-size: 16px;
   line-height: 22px;
@@ -8921,18 +8925,18 @@ header .wrapper .calculation .wordblock p {
   margin: 30px 0px 0px 78px;
   color: #0065a0;
 }
-/* line 141, ../sass/main.scss */
+/* line 144, ../sass/main.scss */
 header .wrapper .calculation .wordblock p span {
   text-transform: uppercase;
 }
-/* line 146, ../sass/main.scss */
+/* line 149, ../sass/main.scss */
 header .wrapper .calculation .btn-calc {
   position: absolute;
   left: 0px;
   bottom: 0px;
   cursor: pointer;
 }
-/* line 151, ../sass/main.scss */
+/* line 154, ../sass/main.scss */
 header .wrapper .calculation .btn-calc a {
   display: block;
   font-size: 17px;
@@ -8950,7 +8954,7 @@ header .wrapper .calculation .btn-calc a {
   background-repeat: no-repeat;
   background-position: center right 20px;
 }
-/* line 163, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 header .wrapper .calculation .btn-calc a:hover {
   background: #0065a0;
   background-image: url("../images/calc.png");
@@ -8958,7 +8962,7 @@ header .wrapper .calculation .btn-calc a:hover {
   background-position: center right 20px;
   text-decoration: none;
 }
-/* line 175, ../sass/main.scss */
+/* line 178, ../sass/main.scss */
 header .wrapper .wrap-forma .forma {
   position: relative;
   width: 350px;
@@ -8969,18 +8973,18 @@ header .wrapper .wrap-forma .forma {
   overflow: hidden;
   right: -10px;
 }
-/* line 184, ../sass/main.scss */
+/* line 187, ../sass/main.scss */
 header .wrapper .wrap-forma .forma p {
   font-size: 19px;
   font-weight: 700;
   color: #0065a0;
   margin: 34px 0px 20px 0px;
 }
-/* line 189, ../sass/main.scss */
+/* line 192, ../sass/main.scss */
 header .wrapper .wrap-forma .forma p span {
   text-transform: uppercase;
 }
-/* line 193, ../sass/main.scss */
+/* line 196, ../sass/main.scss */
 header .wrapper .wrap-forma .forma input {
   margin-bottom: 10px;
   font-size: 15px;
@@ -8992,22 +8996,22 @@ header .wrapper .wrap-forma .forma input {
   border-radius: 20px;
   border: none;
 }
-/* line 200, ../sass/main.scss */
+/* line 203, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .reg_pass {
   margin: 15px 0px 0px;
 }
-/* line 202, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .reg_pass a {
   font-size: 14px;
   font-weight: 600;
   text-decoration: underline;
   color: #0065a0;
 }
-/* line 207, ../sass/main.scss */
+/* line 210, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .reg_pass a:hover {
   text-decoration: none;
 }
-/* line 211, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .reg_pass span {
   display: inline-block;
   font-size: 14px;
@@ -9015,12 +9019,12 @@ header .wrapper .wrap-forma .forma .reg_pass span {
   color: #0065a0;
   margin: 0px 15px;
 }
-/* line 219, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 header .wrapper .wrap-forma .forma #remember {
   display: none;
   opacity: 0;
 }
-/* line 222, ../sass/main.scss */
+/* line 225, ../sass/main.scss */
 header .wrapper .wrap-forma .forma #remember + label {
   width: 100%;
   text-align: left;
@@ -9031,7 +9035,7 @@ header .wrapper .wrap-forma .forma #remember + label {
   color: #666;
   padding-left: 50px;
 }
-/* line 232, ../sass/main.scss */
+/* line 235, ../sass/main.scss */
 header .wrapper .wrap-forma .forma #remember + label span {
   display: inline-block;
   width: 19px;
@@ -9043,11 +9047,11 @@ header .wrapper .wrap-forma .forma #remember + label span {
   border-radius: 50%;
   cursor: pointer;
 }
-/* line 243, ../sass/main.scss */
+/* line 246, ../sass/main.scss */
 header .wrapper .wrap-forma .forma #remember:checked + label span {
   background-color: #f7d420;
 }
-/* line 247, ../sass/main.scss */
+/* line 250, ../sass/main.scss */
 header .wrapper .wrap-forma .forma button {
   border: none;
   font-size: 19px;
@@ -9060,11 +9064,11 @@ header .wrapper .wrap-forma .forma button {
   border-radius: 29px;
   box-shadow: inset 0 -3px 0 #188acc;
 }
-/* line 254, ../sass/main.scss */
+/* line 257, ../sass/main.scss */
 header .wrapper .wrap-forma .forma button:hover {
   background: #0065a0;
 }
-/* line 258, ../sass/main.scss */
+/* line 261, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .acces {
   height: 75px;
   text-align: center;
@@ -9073,7 +9077,7 @@ header .wrapper .wrap-forma .forma .acces {
   bottom: 0;
   background-color: #efd51d;
 }
-/* line 265, ../sass/main.scss */
+/* line 268, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .acces a {
   display: inline-block;
   font-size: 14px;
@@ -9082,55 +9086,57 @@ header .wrapper .wrap-forma .forma .acces a {
   text-decoration: underline;
   margin-top: 26px;
 }
-/* line 272, ../sass/main.scss */
+/* line 275, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .acces a:hover {
   text-decoration: none;
 }
-/* line 281, ../sass/main.scss */
-header .copy p {
+
+/* line 288, ../sass/main.scss */
+footer .copy p {
   font-size: 13px;
   color: #0065a0;
   margin: 28px 0px 0px 0px;
 }
 
-/* line 290, ../sass/main.scss */
+/* line 296, ../sass/main.scss */
 #pop-up {
   position: relative;
   padding: 50px 150px;
   display: none;
 }
-/* line 294, ../sass/main.scss */
+/* line 300, ../sass/main.scss */
 #pop-up .fb-close {
   position: absolute;
   top: 10px;
   right: 110px;
   cursor: pointer;
 }
-/* line 300, ../sass/main.scss */
+/* line 306, ../sass/main.scss */
 #pop-up .calculator {
+  position: relative;
   width: 474px;
   height: 370px;
   background-color: #ffeb80;
   border-radius: 40px;
   box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
 }
-/* line 306, ../sass/main.scss */
+/* line 313, ../sass/main.scss */
 #pop-up .calculator:after {
   position: absolute;
   content: url("../images/cloud1.png");
-  top: 5px;
-  left: 50px;
-  z-index: -1;
-}
-/* line 313, ../sass/main.scss */
-#pop-up .calculator:before {
-  position: absolute;
-  content: url("../images/cloud2.png");
-  bottom: 25px;
-  right: 50px;
+  top: -35px;
+  left: -160px;
   z-index: -1;
 }
 /* line 320, ../sass/main.scss */
+#pop-up .calculator:before {
+  position: absolute;
+  content: url("../images/cloud2.png");
+  bottom: -25px;
+  right: -60px;
+  z-index: -1;
+}
+/* line 327, ../sass/main.scss */
 #pop-up .calculator h3 {
   font-size: 19px;
   font-weight: 700;
@@ -9139,11 +9145,11 @@ header .copy p {
   padding: 30px 0px;
   margin: 0px;
 }
-/* line 328, ../sass/main.scss */
+/* line 335, ../sass/main.scss */
 #pop-up .calculator .account {
   margin-bottom: 14px;
 }
-/* line 330, ../sass/main.scss */
+/* line 337, ../sass/main.scss */
 #pop-up .calculator .account input {
   position: relative;
   vertical-align: middle;
@@ -9158,7 +9164,17 @@ header .copy p {
   color: #999;
   margin-right: 16px;
 }
-/* line 340, ../sass/main.scss */
+/* line 347, ../sass/main.scss */
+#pop-up .calculator .account .ui-state-default, #pop-up .calculator .account .ui-state-hover, #pop-up .calculator .account .ui-state-active, #pop-up .calculator .account .ui-state-focus {
+  width: 18px;
+  height: 18px;
+  background-color: #f6e786;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+/* line 356, ../sass/main.scss */
 #pop-up .calculator .account #slider-range-max2, #pop-up .calculator .account #slider-range-max1 {
   width: 240px;
   height: 7px;
@@ -9166,7 +9182,7 @@ header .copy p {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 348, ../sass/main.scss */
+/* line 364, ../sass/main.scss */
 #pop-up .calculator .ui-selectmenu-button {
   width: 407px !important;
   height: 39px;
@@ -9178,15 +9194,15 @@ header .copy p {
   color: #999;
   box-shadow: none;
 }
-/* line 358, ../sass/main.scss */
+/* line 374, ../sass/main.scss */
 #pop-up .calculator .ui-selectmenu-button li {
   font-size: 14px;
 }
-/* line 361, ../sass/main.scss */
+/* line 377, ../sass/main.scss */
 #pop-up .calculator .ui-selectmenu-button li.ui-state-focuse {
   background: none;
 }
-/* line 365, ../sass/main.scss */
+/* line 381, ../sass/main.scss */
 #pop-up .calculator button {
   width: 279px;
   height: 60px;
@@ -9199,7 +9215,395 @@ header .copy p {
   text-transform: uppercase;
   margin-top: 30px;
 }
-/* line 372, ../sass/main.scss */
+/* line 388, ../sass/main.scss */
 #pop-up .calculator button:hover {
   background: #0065a0;
+}
+
+/* line 396, ../sass/main.scss */
+.content {
+  position: relative;
+}
+/* line 398, ../sass/main.scss */
+.content .container {
+  position: relative;
+  height: 100%;
+}
+/* line 402, ../sass/main.scss */
+.content .wrap-tabs {
+  margin-top: 30px;
+}
+/* line 404, ../sass/main.scss */
+.content .wrap-tabs #tabs1 {
+  background: none;
+}
+/* line 406, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .hb {
+  height: 440px;
+}
+/* line 409, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .ui-state-default, .content .wrap-tabs #tabs1 .ui-tabs-active, .content .wrap-tabs #tabs1 .ui-tabs-hover, .content .wrap-tabs #tabs1 .ui-state-focus {
+  background: #caecf2;
+  border: none;
+}
+/* line 412, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .ui-state-default a, .content .wrap-tabs #tabs1 .ui-tabs-active a, .content .wrap-tabs #tabs1 .ui-tabs-hover a, .content .wrap-tabs #tabs1 .ui-state-focus a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #0065a0;
+  outline: none;
+  padding: 13px 23px;
+}
+/* line 420, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .ui-state-active {
+  background: #fff;
+}
+/* line 423, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .ui-widget-header {
+  background: none;
+  border: none;
+}
+/* line 427, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .ui-tabs, .content .wrap-tabs #tabs1 .ui-tabs-panel {
+  background: #fff;
+  border-radius: 0px 10px 10px 10px;
+  box-shadow: 0 19px 32px rgba(31, 31, 31, 0.1);
+  padding: 30px;
+}
+/* line 433, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .ui-tabs-nav {
+  padding: 0;
+}
+/* line 436, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .ui-corner-top {
+  border-radius: 10px 10px 0px 0px;
+}
+/* line 441, ../sass/main.scss */
+.content .wrap-tabs #tabs1 #tabs-1 .photo {
+  display: inline-block;
+  text-align: left;
+}
+/* line 446, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .datauser {
+  margin-bottom: 15px;
+}
+/* line 448, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .datauser p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #989898;
+  margin: 0px;
+}
+/* line 454, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .datauser h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0065a0;
+  margin: 5px 0px;
+}
+/* line 461, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .details {
+  margin-top: 55px;
+}
+/* line 463, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .details h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0065a0;
+  margin: 5px 0px;
+}
+/* line 469, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .details p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #989898;
+  margin: 0px;
+}
+/* line 477, ../sass/main.scss */
+.content .wrap-tabs #tabs1 .photo p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #989898;
+}
+/* line 485, ../sass/main.scss */
+.content .btn-calc {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+  cursor: pointer;
+}
+/* line 490, ../sass/main.scss */
+.content .btn-calc a {
+  display: block;
+  font-size: 17px;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffeb80;
+  padding-left: 28px;
+  width: 326px;
+  height: 50px;
+  background-color: #50a2cf;
+  border-radius: 24px;
+  box-shadow: inset 0 -3px 0 #188acc;
+  background-image: url("../images/calc.png");
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+}
+/* line 502, ../sass/main.scss */
+.content .btn-calc a:hover {
+  background: #0065a0;
+  background-image: url("../images/calc.png");
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+  text-decoration: none;
+}
+
+/* line 516, ../sass/main.scss */
+.content {
+  position: relative;
+}
+/* line 518, ../sass/main.scss */
+.content .container {
+  position: relative;
+  height: 100%;
+}
+/* line 522, ../sass/main.scss */
+.content .wrap-tabs {
+  margin-top: 30px;
+}
+/* line 524, ../sass/main.scss */
+.content .wrap-tabs #tabs2 {
+  background: none;
+}
+/* line 526, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .hb {
+  height: 440px;
+}
+/* line 529, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .mt {
+  margin-top: 100px;
+}
+/* line 532, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .ui-state-default, .content .wrap-tabs #tabs2 .ui-tabs-active, .content .wrap-tabs #tabs2 .ui-tabs-hover, .content .wrap-tabs #tabs2 .ui-state-focus {
+  background: #caecf2;
+  border: none;
+  padding-bottom: 0px;
+}
+/* line 536, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .ui-state-default a, .content .wrap-tabs #tabs2 .ui-tabs-active a, .content .wrap-tabs #tabs2 .ui-tabs-hover a, .content .wrap-tabs #tabs2 .ui-state-focus a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #0065a0;
+  outline: none;
+  padding: 13px 23px;
+}
+/* line 544, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .ui-state-active {
+  background-color: #f1e68b;
+}
+/* line 547, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .ui-widget-header {
+  background: none;
+  border: none;
+}
+/* line 551, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .ui-tabs, .content .wrap-tabs #tabs2 .ui-tabs-panel {
+  background: #fff;
+  border-radius: 0px 10px 10px 10px;
+  box-shadow: 0 19px 32px rgba(31, 31, 31, 0.1);
+  padding: 30px;
+}
+/* line 557, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .ui-tabs-nav {
+  padding: 0;
+}
+/* line 560, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .ui-corner-top {
+  border-radius: 10px 10px 0px 0px;
+}
+/* line 563, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .btn-admin {
+  display: inline-block;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+/* line 567, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .btn-admin a {
+  display: block;
+  font-size: 17px;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffeb80;
+  width: 329px;
+  height: 60px;
+  background-color: #50a2cf;
+  border-radius: 29px;
+  box-shadow: inset 0 -3px 0 #188acc;
+}
+/* line 575, ../sass/main.scss */
+.content .wrap-tabs #tabs2 .btn-admin a:hover {
+  background: #0065a0;
+  text-decoration: none;
+}
+/* line 585, ../sass/main.scss */
+.content .btn-calc {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+  cursor: pointer;
+}
+/* line 590, ../sass/main.scss */
+.content .btn-calc a {
+  display: block;
+  font-size: 17px;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffeb80;
+  padding-left: 28px;
+  width: 326px;
+  height: 50px;
+  background-color: #50a2cf;
+  border-radius: 24px;
+  box-shadow: inset 0 -3px 0 #188acc;
+  background-image: url("../images/calc.png");
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+}
+/* line 602, ../sass/main.scss */
+.content .btn-calc a:hover {
+  background: #0065a0;
+  background-image: url("../images/calc.png");
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+  text-decoration: none;
+}
+
+/* line 616, ../sass/main.scss */
+.content {
+  position: relative;
+}
+/* line 618, ../sass/main.scss */
+.content .container {
+  position: relative;
+  height: 100%;
+}
+/* line 622, ../sass/main.scss */
+.content .wrap-tabs {
+  margin-top: 30px;
+}
+/* line 624, ../sass/main.scss */
+.content .wrap-tabs #tabs3 {
+  background: none;
+}
+/* line 626, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .hb {
+  height: 440px;
+}
+/* line 629, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .mt {
+  margin-top: 100px;
+}
+/* line 632, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .ui-state-default, .content .wrap-tabs #tabs3 .ui-tabs-active, .content .wrap-tabs #tabs3 .ui-tabs-hover, .content .wrap-tabs #tabs3 .ui-state-focus {
+  background: #caecf2;
+  border: none;
+  padding-bottom: 0px;
+}
+/* line 636, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .ui-state-default a, .content .wrap-tabs #tabs3 .ui-tabs-active a, .content .wrap-tabs #tabs3 .ui-tabs-hover a, .content .wrap-tabs #tabs3 .ui-state-focus a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #0065a0;
+  outline: none;
+  padding: 13px 23px;
+}
+/* line 645, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .ui-state-active {
+  background-color: #83d076;
+}
+/* line 647, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .ui-state-active a {
+  color: #fff;
+}
+/* line 651, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .ui-widget-header {
+  background: none;
+  border: none;
+}
+/* line 655, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .ui-tabs, .content .wrap-tabs #tabs3 .ui-tabs-panel {
+  background: #fff;
+  border-radius: 0px 10px 10px 10px;
+  box-shadow: 0 19px 32px rgba(31, 31, 31, 0.1);
+  padding: 30px;
+}
+/* line 661, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .ui-tabs-nav {
+  padding: 0;
+}
+/* line 664, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .ui-corner-top {
+  border-radius: 10px 10px 0px 0px;
+}
+/* line 667, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .btn-admin {
+  display: inline-block;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+/* line 671, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .btn-admin a {
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffeb80;
+  width: 329px;
+  height: 60px;
+  background-color: #50a2cf;
+  border-radius: 29px;
+  box-shadow: inset 0 -3px 0 #188acc;
+}
+/* line 680, ../sass/main.scss */
+.content .wrap-tabs #tabs3 .btn-admin a:hover {
+  background: #0065a0;
+  text-decoration: none;
+}
+/* line 690, ../sass/main.scss */
+.content .btn-calc {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+  cursor: pointer;
+}
+/* line 695, ../sass/main.scss */
+.content .btn-calc a {
+  display: block;
+  font-size: 17px;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffeb80;
+  padding-left: 28px;
+  width: 326px;
+  height: 50px;
+  background-color: #50a2cf;
+  border-radius: 24px;
+  box-shadow: inset 0 -3px 0 #188acc;
+  background-image: url("../images/calc.png");
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+}
+/* line 707, ../sass/main.scss */
+.content .btn-calc a:hover {
+  background: #0065a0;
+  background-image: url("../images/calc.png");
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+  text-decoration: none;
 }
