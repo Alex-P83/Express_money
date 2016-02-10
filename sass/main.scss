@@ -45,6 +45,14 @@ textarea:active {
   resize: none;
 }
 
+select,
+select:focus,
+select:active {
+  border: 0;
+  outline: 0;
+  resize: none;
+}
+
 button {
   border: none;
   cursor: pointer;
@@ -153,7 +161,7 @@ header{
 					background-repeat: no-repeat;
 					background-position: center right 20px;
 					&:hover{
-						background:lighten(#50a2cf,5%);
+						background:$textcolor;
 						background-image:url('../images/calc.png');
 						background-repeat: no-repeat;
 						background-position: center right 20px;
@@ -244,7 +252,7 @@ header{
 					text-transform: uppercase;
 					@include button(279px,60px,#50a2cf,29px);
 					&:hover{
-						background:lighten(#50a2cf,5%);
+						background:$textcolor;
 					}
 				}
 				.acces{
@@ -278,3 +286,93 @@ header{
 	}
 
 }
+
+#pop-up{
+	position:relative;
+	padding: 50px 150px;
+	display: none;
+	.fb-close{
+		position:absolute;
+		top:10px;
+		right: 110px;
+		cursor: pointer;
+	}		
+	.calculator{
+		width: 474px;
+		height: 370px;
+		background-color: #ffeb80;
+		border-radius: 40px;
+		box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
+		&:after{
+			position:absolute;
+			content: url('../images/cloud1.png');
+			top: 5px;
+			left: 50px;
+			z-index: -1;
+		}
+		&:before{
+			position:absolute;
+			content: url('../images/cloud2.png');
+			bottom: 25px;
+			right: 50px;
+			z-index: -1;
+		}		
+		h3{
+			font-size: 19px;
+			font-weight: 700;
+			color: $textcolor;
+			text-transform: uppercase;
+			padding: 30px 0px;
+			margin: 0px;
+		}
+		.account{
+			margin-bottom: 14px;
+			input{
+				position:relative;
+				vertical-align: middle;
+				@include input(153px,39px,20px);
+				padding-left: 20px;
+				font-size: 15px;
+				font-weight: 400;
+				color: #999;
+				margin-right: 16px;
+			}
+			#slider-range-max2,#slider-range-max1{
+				width: 240px;
+				height: 7px;
+				background-color: #0065a0;
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+		.ui-selectmenu-button{
+			width: 407px!important;
+			height: 39px;
+			background-color: white;
+			border-radius: 20px;
+			padding-left: 20px;
+			font-size: 15px;
+			font-weight: 400;
+			color: #999;
+			box-shadow:none;
+			li{
+				font-size: 14px;
+			}
+			li.ui-state-focuse{
+				background:none;
+			}		
+		}
+		button{
+			@include button(279px,60px,#50a2cf,29px);
+			font-size: 19px;
+			font-weight: 700;
+			color: #ffeb80;
+			text-transform: uppercase;
+			margin-top: 30px;
+			&:hover{
+				background:$textcolor;
+			}
+		}
+	}	
+}
+

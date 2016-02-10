@@ -8815,12 +8815,21 @@ textarea:active {
 }
 
 /* line 48, ../sass/main.scss */
+select,
+select:focus,
+select:active {
+  border: 0;
+  outline: 0;
+  resize: none;
+}
+
+/* line 56, ../sass/main.scss */
 button {
   border: none;
   cursor: pointer;
 }
 
-/* line 53, ../sass/main.scss */
+/* line 61, ../sass/main.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -8837,15 +8846,15 @@ body {
   background-size: cover;
 }
 
-/* line 71, ../sass/main.scss */
+/* line 79, ../sass/main.scss */
 header .top-header .logo {
   margin: 44px 0px 0px 3px;
 }
-/* line 74, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 header .top-header .number {
   margin: 40px 0px 0px 0px;
 }
-/* line 76, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 header .top-header .number p {
   font-size: 16px;
   line-height: 18px;
@@ -8853,11 +8862,11 @@ header .top-header .number p {
   font-weight: 700;
   color: #0065a0;
 }
-/* line 82, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 header .top-header .number p span {
   text-transform: uppercase;
 }
-/* line 86, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 header .top-header .number h3 {
   font-size: 32px;
   line-height: 40px;
@@ -8865,7 +8874,7 @@ header .top-header .number h3 {
   color: #fff;
   margin: 0px;
 }
-/* line 96, ../sass/main.scss */
+/* line 104, ../sass/main.scss */
 header .title h1 {
   font-size: 53px;
   font-weight: 700;
@@ -8873,28 +8882,28 @@ header .title h1 {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-/* line 103, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 header .title p {
   font-size: 24px;
   font-weight: 700;
   color: #0065a0;
 }
-/* line 109, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 header .wrapper {
   margin-top: 39px;
 }
-/* line 111, ../sass/main.scss */
+/* line 119, ../sass/main.scss */
 header .wrapper .calculation {
   position: relative;
   height: 430px;
 }
-/* line 114, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 header .wrapper .calculation .chuvak {
   position: absolute;
   top: 79px;
   left: -16px;
 }
-/* line 119, ../sass/main.scss */
+/* line 127, ../sass/main.scss */
 header .wrapper .calculation .wordblock {
   position: absolute;
   top: 5px;
@@ -8904,7 +8913,7 @@ header .wrapper .calculation .wordblock {
   height: 181px;
   background: url("../images/bg-word.png") no-repeat center;
 }
-/* line 127, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 header .wrapper .calculation .wordblock p {
   font-size: 16px;
   line-height: 22px;
@@ -8912,18 +8921,18 @@ header .wrapper .calculation .wordblock p {
   margin: 30px 0px 0px 78px;
   color: #0065a0;
 }
-/* line 133, ../sass/main.scss */
+/* line 141, ../sass/main.scss */
 header .wrapper .calculation .wordblock p span {
   text-transform: uppercase;
 }
-/* line 138, ../sass/main.scss */
+/* line 146, ../sass/main.scss */
 header .wrapper .calculation .btn-calc {
   position: absolute;
   left: 0px;
   bottom: 0px;
   cursor: pointer;
 }
-/* line 143, ../sass/main.scss */
+/* line 151, ../sass/main.scss */
 header .wrapper .calculation .btn-calc a {
   display: block;
   font-size: 17px;
@@ -8941,15 +8950,15 @@ header .wrapper .calculation .btn-calc a {
   background-repeat: no-repeat;
   background-position: center right 20px;
 }
-/* line 155, ../sass/main.scss */
+/* line 163, ../sass/main.scss */
 header .wrapper .calculation .btn-calc a:hover {
-  background: #64add4;
+  background: #0065a0;
   background-image: url("../images/calc.png");
   background-repeat: no-repeat;
   background-position: center right 20px;
   text-decoration: none;
 }
-/* line 167, ../sass/main.scss */
+/* line 175, ../sass/main.scss */
 header .wrapper .wrap-forma .forma {
   position: relative;
   width: 350px;
@@ -8960,18 +8969,18 @@ header .wrapper .wrap-forma .forma {
   overflow: hidden;
   right: -10px;
 }
-/* line 176, ../sass/main.scss */
+/* line 184, ../sass/main.scss */
 header .wrapper .wrap-forma .forma p {
   font-size: 19px;
   font-weight: 700;
   color: #0065a0;
   margin: 34px 0px 20px 0px;
 }
-/* line 181, ../sass/main.scss */
+/* line 189, ../sass/main.scss */
 header .wrapper .wrap-forma .forma p span {
   text-transform: uppercase;
 }
-/* line 185, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 header .wrapper .wrap-forma .forma input {
   margin-bottom: 10px;
   font-size: 15px;
@@ -8983,22 +8992,22 @@ header .wrapper .wrap-forma .forma input {
   border-radius: 20px;
   border: none;
 }
-/* line 192, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .reg_pass {
   margin: 15px 0px 0px;
 }
-/* line 194, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .reg_pass a {
   font-size: 14px;
   font-weight: 600;
   text-decoration: underline;
   color: #0065a0;
 }
-/* line 199, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .reg_pass a:hover {
   text-decoration: none;
 }
-/* line 203, ../sass/main.scss */
+/* line 211, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .reg_pass span {
   display: inline-block;
   font-size: 14px;
@@ -9006,12 +9015,12 @@ header .wrapper .wrap-forma .forma .reg_pass span {
   color: #0065a0;
   margin: 0px 15px;
 }
-/* line 211, ../sass/main.scss */
+/* line 219, ../sass/main.scss */
 header .wrapper .wrap-forma .forma #remember {
   display: none;
   opacity: 0;
 }
-/* line 214, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 header .wrapper .wrap-forma .forma #remember + label {
   width: 100%;
   text-align: left;
@@ -9022,7 +9031,7 @@ header .wrapper .wrap-forma .forma #remember + label {
   color: #666;
   padding-left: 50px;
 }
-/* line 224, ../sass/main.scss */
+/* line 232, ../sass/main.scss */
 header .wrapper .wrap-forma .forma #remember + label span {
   display: inline-block;
   width: 19px;
@@ -9034,11 +9043,11 @@ header .wrapper .wrap-forma .forma #remember + label span {
   border-radius: 50%;
   cursor: pointer;
 }
-/* line 235, ../sass/main.scss */
+/* line 243, ../sass/main.scss */
 header .wrapper .wrap-forma .forma #remember:checked + label span {
   background-color: #f7d420;
 }
-/* line 239, ../sass/main.scss */
+/* line 247, ../sass/main.scss */
 header .wrapper .wrap-forma .forma button {
   border: none;
   font-size: 19px;
@@ -9051,11 +9060,11 @@ header .wrapper .wrap-forma .forma button {
   border-radius: 29px;
   box-shadow: inset 0 -3px 0 #188acc;
 }
-/* line 246, ../sass/main.scss */
+/* line 254, ../sass/main.scss */
 header .wrapper .wrap-forma .forma button:hover {
-  background: #64add4;
+  background: #0065a0;
 }
-/* line 250, ../sass/main.scss */
+/* line 258, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .acces {
   height: 75px;
   text-align: center;
@@ -9064,7 +9073,7 @@ header .wrapper .wrap-forma .forma .acces {
   bottom: 0;
   background-color: #efd51d;
 }
-/* line 257, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .acces a {
   display: inline-block;
   font-size: 14px;
@@ -9073,13 +9082,124 @@ header .wrapper .wrap-forma .forma .acces a {
   text-decoration: underline;
   margin-top: 26px;
 }
-/* line 264, ../sass/main.scss */
+/* line 272, ../sass/main.scss */
 header .wrapper .wrap-forma .forma .acces a:hover {
   text-decoration: none;
 }
-/* line 273, ../sass/main.scss */
+/* line 281, ../sass/main.scss */
 header .copy p {
   font-size: 13px;
   color: #0065a0;
   margin: 28px 0px 0px 0px;
+}
+
+/* line 290, ../sass/main.scss */
+#pop-up {
+  position: relative;
+  padding: 50px 150px;
+  display: none;
+}
+/* line 294, ../sass/main.scss */
+#pop-up .fb-close {
+  position: absolute;
+  top: 10px;
+  right: 110px;
+  cursor: pointer;
+}
+/* line 300, ../sass/main.scss */
+#pop-up .calculator {
+  width: 474px;
+  height: 370px;
+  background-color: #ffeb80;
+  border-radius: 40px;
+  box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
+}
+/* line 306, ../sass/main.scss */
+#pop-up .calculator:after {
+  position: absolute;
+  content: url("../images/cloud1.png");
+  top: 5px;
+  left: 50px;
+  z-index: -1;
+}
+/* line 313, ../sass/main.scss */
+#pop-up .calculator:before {
+  position: absolute;
+  content: url("../images/cloud2.png");
+  bottom: 25px;
+  right: 50px;
+  z-index: -1;
+}
+/* line 320, ../sass/main.scss */
+#pop-up .calculator h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #0065a0;
+  text-transform: uppercase;
+  padding: 30px 0px;
+  margin: 0px;
+}
+/* line 328, ../sass/main.scss */
+#pop-up .calculator .account {
+  margin-bottom: 14px;
+}
+/* line 330, ../sass/main.scss */
+#pop-up .calculator .account input {
+  position: relative;
+  vertical-align: middle;
+  width: 153px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999;
+  margin-right: 16px;
+}
+/* line 340, ../sass/main.scss */
+#pop-up .calculator .account #slider-range-max2, #pop-up .calculator .account #slider-range-max1 {
+  width: 240px;
+  height: 7px;
+  background-color: #0065a0;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 348, ../sass/main.scss */
+#pop-up .calculator .ui-selectmenu-button {
+  width: 407px !important;
+  height: 39px;
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999;
+  box-shadow: none;
+}
+/* line 358, ../sass/main.scss */
+#pop-up .calculator .ui-selectmenu-button li {
+  font-size: 14px;
+}
+/* line 361, ../sass/main.scss */
+#pop-up .calculator .ui-selectmenu-button li.ui-state-focuse {
+  background: none;
+}
+/* line 365, ../sass/main.scss */
+#pop-up .calculator button {
+  width: 279px;
+  height: 60px;
+  background-color: #50a2cf;
+  border-radius: 29px;
+  box-shadow: inset 0 -3px 0 #188acc;
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffeb80;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+/* line 372, ../sass/main.scss */
+#pop-up .calculator button:hover {
+  background: #0065a0;
 }
