@@ -48,9 +48,9 @@
       <div class="content">
         <div class="container">
           <div class="wrap-tabs">
-            <div id="tabs4">
+            <div id="tabs8">
               <ul>
-                <li><a href="#tabs-1">Кабинет Менеджера</a></li>
+                <li><a href="#tabs-1">Кабинет Администратора</a></li>
                 <li><a href="#tabs-2">Выход</a></li>
               </ul>
               <div id="tabs-1" class="hb">
@@ -58,60 +58,96 @@
                   <div class="breadcrumbs">
                     <a href="#">Мой кабинет</a>
                     <i> > </i>
-                    <a href="#">Добавить клиента</a>
+                    <a href="#">Добавить заявку</a>
                   </div>
-                  <form action="">
-                    <div class="col-xs-3">
-                      <input type="text" name="" placeholder="Фамилия">
-                      <input type="text" name="" placeholder="Имя">
-                      <input type="text" name="" placeholder="Отчество">
-                      <input type="text" name="" placeholder="Дата рождения">
-                      <input type="text" name="" placeholder="Место рождения">
-                      <input type="text" name="" placeholder="Серия и номер паспорта">
-                      <input type="text" name="" placeholder="Кем и когда выдан" class="smallinput">
-                      <input type="text" name="" placeholder="Адрес регистрации">
-                      <input type="text" name="" placeholder="и проживания" class="smallinput">
-                      <input type="checkbox" name="" id="coincidence">
-                      <label for="coincidence"><span></span>Совпадает с адресом регистрации</label>
-                    </div>
-                    <div class="col-xs-3">
-                      <input type="text" name="" placeholder="Пол">
-                      <input type="text" name="" placeholder="Уровень образования">
-                      <input type="checkbox" name="" id="car">
-                      <label for="car"><span></span>Наличие автомобиля</label>
-                      <input type="checkbox" name="" id="realty">
-                      <label for="realty"><span></span>Наличие недвижимости</label>
-                      <input type="checkbox" name="" id="card">
-                      <label for="card"><span></span>Выдана карта номер:</label>
-                      <input type="text" name="" placeholder="65 47  65 47  65 47  12 34">
-                    </div>
-                    <div class="col-xs-3">
-                      <div class="wrap-photo text-center">
-                        <div class="photo">
-                          <img src="images/photoface.png" alt="">
-                        </div>
-                        <div class="btn-made">
-                          <a href="#">сделать фотографию</a>
-                        </div>                        
+                  <div class="col-xs-7">
+                    <div class="row">
+                      <div class="col-xs-4">
+                          <p>Номер договора:</p>
+                          <input type="text" name="" placeholder="386/45 - АС">  
                       </div>
-                    </div>
-                    <div class="col-xs-3">
-                      <div class="row">
-                        <input type="checkbox" name="" id="sms">
-                        <label for="sms" class="sms"><span></span>Соглашение на отправку СМС</label>
-                        <button>создать пользователя</button>
-                        <div class="annotation">
-                          <p>Примечание: не забудьте предупредить 
-                          пользователя что сейчас ему на телефон 
-                          прийдет пароль для входа в личный 
-                          кабинет. Расскажите ему как он может туда 
-                          попасть и какую информацию сможет 
-                          получить.</p>
-                        </div>                        
+                      <div class="col-xs-4">        
+                          <p>ФИО:</p>
+                          <input type="text" name="" placeholder="Иванов С.С.">   
                       </div>
+                      <div class="col-xs-4">        
+                          <p>Дата заключения:</p>
+                          <input type="text" name="" placeholder="4 / 22 / 2012">
+                      </div>
+                    </div>                      
+                  </div>
+                  <div class="col-xs-5">
+                    <p>Сумма займа:</p>
+                    <div class="col-xs-6">
+                    <div class="row">
+                      <label for="">от</label>
+                      <input type="text" name="" placeholder="50 000 рублей">
                     </div>
-                  </form>
-                </div>            
+                    </div>
+                    <div class="col-xs-6">
+                    <div class="row">
+                      <label for="">до</label>
+                      <input type="text" name="" placeholder="100 000 рублей">
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapp-table text-center">
+                  <table>
+                    <tr>
+                      <th>Номер договора</th>
+                      <th>ФИО</th>
+                      <th>Дата выдачи займа</th>
+                      <th>Сумма займа</th>
+                      <th>Действия</th>
+                    </tr>
+                    <tr>
+                      <td>386/78 - АС</td>
+                      <td>Иванов С.С.</td>
+                      <td>18.12.2015</td>
+                      <td>500 000 рублей</td>
+                      <td>
+                        <a href="#">Перейти к карточке клиента</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>386/78 - АС</td>
+                      <td>Иванов С.С.</td>
+                      <td>18.12.2015</td>
+                      <td>500 000 рублей</td>
+                      <td>
+                        <a href="#">Перейти к карточке клиента</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>386/78 - АС</td>
+                      <td>Иванов С.С.</td>
+                      <td>18.12.2015</td>
+                      <td>500 000 рублей</td>
+                      <td>
+                        <a href="#">Перейти к карточке клиента</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>386/78 - АС</td>
+                      <td>Иванов С.С.</td>
+                      <td>18.12.2015</td>
+                      <td>500 000 рублей</td>
+                      <td>
+                        <a href="#">Перейти к карточке клиента</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>386/78 - АС</td>
+                      <td>Иванов С.С.</td>
+                      <td>18.12.2015</td>
+                      <td>500 000 рублей</td>
+                      <td>
+                        <a href="#">Перейти к карточке клиента</a>
+                      </td>
+                    </tr>                                        
+                  </table>
+                </div>              
               </div>
               <div id="tabs-2" class="hb">
                 <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
@@ -126,15 +162,25 @@
     <footer>
       <div class="container">
             <div class="row">
-                <div class="col-xs-8"></div>
-                <div class="col-xs-4">
-                  <div class="btn-calc">
-                    <a href="#pop-up" class="pop-up">кредитный калькулятор</a>
-                  </div>                  
+              <div class="col-xs-8">
+                <div class="pagination-wrap">
+                  <a href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#" class="active-btn">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">7</a>
                 </div>
-                <div class="copy text-center">
-                  <p>Copyright © 2016 Экспресс мани</p>
-                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="btn-calc">
+                  <a href="#pop-up" class="pop-up">кредитный калькулятор</a>
+                </div>                 
+              </div>
+              <div class="copy text-center">
+                <p>Copyright © 2016 Экспресс мани</p>
+              </div>
             </div>        
       </div>
     </footer>

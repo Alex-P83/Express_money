@@ -48,56 +48,74 @@
       <div class="content">
         <div class="container">
           <div class="wrap-tabs">
-            <div id="tabs1">
+            <div id="tabs7">
               <ul>
-                <li><a href="#tabs-1">Кабинет Константина</a></li>
-                <li><a href="#tabs-2">Детализация платежей</a></li>
-                <li><a href="#tabs-3">История займов</a></li>
-                <li><a href="#tabs-4">Выход</a></li>
+                <li><a href="#tabs-1">Кабинет Администратора</a></li>
+                <li><a href="#tabs-2">Выход</a></li>
               </ul>
               <div id="tabs-1" class="hb">
                 <div class="row">
-                  <div class="col-xs-9">
-                    <div class="datauser">
-                      <p>Фамилия:</p>
-                      <h3>Константинопольский</h3>
-                    </div>
-                    <div class="datauser">
-                      <p>Имя:</p>
-                      <h3>Константин</h3>
-                    </div>
-                    <div class="datauser">
-                      <p>Отчество:</p>
-                      <h3>Константинович</h3>
-                    </div>
-                    <div class="datauser">
-                      <p>Номер карты:</p>
-                      <h3>65 47 ** ** 12 34</h3>
-                    </div>
-                    <div class="details">
-                      <h3>Детали Вашего займа:</h3>
-                      <p>Займ на сумму: 500 000 рублей  из них выплачено 320 000 рублей осталось погасить на сумму 180 000 рублей</p>
-                      <p>Ваш текущий процент: 14%</p>
-                      <p>Последний платеж был осуществлен: 14 февраля 2015 года на сумму 50 000 рублей</p>
-                    </div>
+                  <div class="breadcrumbs">
+                    <a href="#">Мой кабинет</a>
+                    <i> > </i>
+                    <a href="#">Добавить клиента</a>
                   </div>
-                  <div class="col-xs-3 text-right">
-                    <div class="photo">
-                      <p>Ваше фото:</p>
-                      <img src="images/photoface.png" alt="">  
+                  <form action="">
+                    <div class="col-xs-3">
+                      <input type="text" name="" placeholder="Фамилия">
+                      <input type="text" name="" placeholder="Имя">
+                      <input type="text" name="" placeholder="Отчество">
+                      <input type="text" name="" placeholder="Дата рождения">
+                      <input type="text" name="" placeholder="Место рождения">
+                      <input type="text" name="" placeholder="Серия и номер паспорта">
+                      <input type="text" name="" placeholder="Кем и когда выдан" class="smallinput">
+                      <input type="text" name="" placeholder="Адрес регистрации">
+                      <input type="text" name="" placeholder="и проживания" class="smallinput">
+                      <input type="checkbox" name="" id="coincidence">
+                      <label for="coincidence"><span></span>Совпадает с адресом регистрации</label>
                     </div>
-                  </div>
-                </div>
+                    <div class="col-xs-3">
+                      <input type="text" name="" placeholder="Пол">
+                      <input type="text" name="" placeholder="Уровень образования">
+                      <input type="checkbox" name="" id="car">
+                      <label for="car"><span></span>Наличие автомобиля</label>
+                      <input type="checkbox" name="" id="realty">
+                      <label for="realty"><span></span>Наличие недвижимости</label>
+                      <input type="checkbox" name="" id="card">
+                      <label for="card"><span></span>Выдана карта номер:</label>
+                      <input type="text" name="" placeholder="65 47  65 47  65 47  12 34">
+                    </div>
+                    <div class="col-xs-3">
+                      <div class="wrap-photo text-center">
+                        <div class="photo">
+                          <img src="images/photoface.png" alt="">
+                        </div>
+                        <div class="btn-made">
+                          <a href="#">сделать фотографию</a>
+                        </div>                        
+                      </div>
+                    </div>
+                    <div class="col-xs-3">
+                      <div class="row">
+                        <input type="checkbox" name="" id="sms">
+                        <label for="sms" class="sms"><span></span>Соглашение на отправку СМС</label>
+                        <button>создать пользователя</button>
+                        <div class="annotation">
+                          <p>Примечание: не забудьте предупредить 
+                          пользователя что сейчас ему на телефон 
+                          прийдет пароль для входа в личный 
+                          кабинет. Расскажите ему как он может туда 
+                          попасть и какую информацию сможет 
+                          получить.</p>
+                        </div>                        
+                      </div>
+                    </div>
+                  </form>
+                </div>            
               </div>
               <div id="tabs-2" class="hb">
                 <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-              </div>
-              <div id="tabs-3" class="hb">
-                <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-              </div>
-              <div id="tabs-4" class="hb">
-                <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-              </div>              
+              </div>            
             </div>
           </div>
         </div>        
@@ -108,12 +126,12 @@
     <footer>
       <div class="container">
             <div class="row">
-                <div class="col-xs-8"></div>
-                <div class="col-xs-4">
-                  <div class="btn-calc">
-                    <a href="#pop-up" class="pop-up">кредитный калькулятор</a>
-                  </div>                  
-                </div>
+              <div class="col-xs-8"></div>
+              <div class="col-xs-4">
+                <div class="btn-calc">
+                  <a href="#pop-up" class="pop-up">кредитный калькулятор</a>
+                </div>                
+              </div>  
                 <div class="copy text-center">
                   <p>Copyright © 2016 Экспресс мани</p>
                 </div>
