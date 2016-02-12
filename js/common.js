@@ -1,9 +1,8 @@
 //Fancybox
   $(document).ready(function() {
     $(".pop-up").fancybox({
-        closeBtn: false,
-        // wrapCSS:'wrapPopup'    
-    });
+        closeBtn: false
+    });  
     $(".fb-close").click(function(){
       $.fancybox.close();
     });        
@@ -48,6 +47,9 @@
 
   $(function() {
     $( "#selectmenu1" ).selectmenu();
+    $( "#selectmenu2" ).selectmenu();
+    $( "#selectmenu3" ).selectmenu();
+    $( "#selectmenu4" ).selectmenu();
   });   
 
 //Tabs
@@ -58,6 +60,8 @@
       $( "#tabs2" ).tabs();
       $( "#tabs3" ).tabs();
       $( "#tabs4" ).tabs();
+      $( "#tabs5" ).tabs();
+      $( "#tabs6" ).tabs();
     });      
   }); 
   

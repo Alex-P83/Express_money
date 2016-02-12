@@ -9,10 +9,11 @@
 
     <!-- Bootstrap -->
     <link rel="SHORTCUT ICON" href="images/favicon.png" type="image/png">     
-    <link href="css/main.css" rel="stylesheet">
+    
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" media="all" href="fancybox/source/jquery.fancybox.css"> 
-    <link href="css/jquery-ui.css" rel="stylesheet">   
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">   
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -47,9 +48,9 @@
       <div class="content">
         <div class="container">
           <div class="wrap-tabs">
-            <div id="tabs4">
+            <div id="tabs6">
               <ul>
-                <li><a href="#tabs-1">Кабинет Менеджера</a></li>
+                <li><a href="#tabs-1">Кабинет Администратора</a></li>
                 <li><a href="#tabs-2">Выход</a></li>
               </ul>
               <div id="tabs-1" class="hb">
@@ -57,48 +58,49 @@
                   <div class="breadcrumbs">
                     <a href="#">Мой кабинет</a>
                     <i> > </i>
-                    <a href="#">Добавить клиента</a>
+                    <a href="#">Добавить заявку</a>
+                  </div>
+                  <div class="choice-client">
+                    <p>Выбрать клиента:</p>
                   </div>
                   <form action="">
-                    <div class="col-xs-3">
-                      <input type="text" name="" placeholder="Фамилия">
-                      <input type="text" name="" placeholder="Имя">
-                      <input type="text" name="" placeholder="Отчество">
-                      <input type="text" name="" placeholder="Дата рождения">
-                      <input type="text" name="" placeholder="Место рождения">
-                      <input type="text" name="" placeholder="Серия и номер паспорта">
-                      <input type="text" name="" placeholder="Кем и когда выдан" class="smallinput">
-                      <input type="text" name="" placeholder="Адрес регистрации">
-                      <input type="text" name="" placeholder="и проживания" class="smallinput">
-                      <input type="checkbox" name="" id="coincidence">
-                      <label for="coincidence"><span></span>Совпадает с адресом регистрации</label>
-                    </div>
-                    <div class="col-xs-3">
-                      <input type="text" name="" placeholder="Пол">
-                      <input type="text" name="" placeholder="Уровень образования">
-                      <input type="checkbox" name="" id="car">
-                      <label for="car"><span></span>Наличие автомобиля</label>
-                      <input type="checkbox" name="" id="realty">
-                      <label for="realty"><span></span>Наличие недвижимости</label>
-                      <input type="checkbox" name="" id="card">
-                      <label for="card"><span></span>Выдана карта номер:</label>
-                      <input type="text" name="" placeholder="65 47  65 47  65 47  12 34">
-                    </div>
-                    <div class="col-xs-3">
-                      <div class="wrap-photo text-center">
-                        <div class="photo">
-                          <img src="images/photoface.png" alt="">
-                        </div>
+                    <div class="col-xs-7">
+                      <select name="select" id="selectmenu2">
+                        <option value="">ФИО</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                      <div class="wrap-btn">
+                        <p>или</p>
                         <div class="btn-made">
-                          <a href="#">сделать фотографию</a>
-                        </div>                        
+                          <a href="#">Создать нового</a>
+                        </div>
                       </div>
+                      <select name="select" id="selectmenu3">
+                        <option value="">Выберите отделение</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                      <div class="account">
+                        <input type="text" id="amount1">
+                        <div id="slider-range-max1"></div> 
+                      </div>
+                      <div class="account">
+                        <input type="text" id="amount2">
+                        <div id="slider-range-max2"></div> 
+                      </div>
+                      <select name="select" id="selectmenu4">
+                        <option value="">Правило расчета</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>                                                                  
                     </div>
-                    <div class="col-xs-3">
+                    <div class="col-xs-3 col-xs-offset-2">
                       <div class="row">
-                        <input type="checkbox" name="" id="sms">
-                        <label for="sms" class="sms"><span></span>Соглашение на отправку СМС</label>
-                        <button>создать пользователя</button>
+                        <button>создать заявку</button>
                         <div class="annotation">
                           <p>Примечание: не забудьте предупредить 
                           пользователя что сейчас ему на телефон 

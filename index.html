@@ -76,14 +76,14 @@
                       <input type="phone" name="phone" placeholder="Ваш телефон">
                       <input type="password" name="password" placeholder="Ваш пароль">
                       <div class="reg_pass">
-                        <a href="#">Забыли пароль?</a> <span>/</span> <a href="#">Регистрация</a>
+                        <a href="#">Забыли пароль?</a> <span>/</span> <a href="#registration" class="pop-up">Регистрация</a>
                       </div>
                       <input type="checkbox" name="remember" id="remember">
                       <label for="remember" class="remember"><span></span>Запомнить меня</label>
                       <button>Войти</button>
                     </form>
                     <div class="acces">
-                      <a href="#">Получить доступ в личный кабинет</a>
+                      <a href="#acces" class="pop-up">Получить доступ в личный кабинет</a>
                     </div>
                   </div>
                 </div>
@@ -92,16 +92,15 @@
           </div>
         </div>        
       </div>
+      <div class="footer-push"></div>
     </header>
     <!-- Footer -->
     <footer>
       <div class="container">
             <div class="row">
-              <div class="col-xs-12">
                 <div class="copy text-center">
                   <p>Copyright © 2016 Экспресс мани</p>
                 </div>
-              </div>
             </div>        
       </div>
     </footer>
@@ -130,12 +129,48 @@
         </form>
       </div>
     </div>
+    <!-- Registration -->
+    <div id="registration" class="text-center">
+      <div class="fb-close">
+          <img src="images/close.png" alt="">
+      </div>
+      <div class="wrap-forma">
+        <h3>Регистрация</h3>
+        <form action="">
+          <input type="text" name="" placeholder="Ваше имя">
+          <input type="text" name="" placeholder="Ваша фамилия">
+          <input type="text" name="" placeholder="Ваше отчество">
+          <input type="text" name="" placeholder="Ваш телефон">
+          <button>Зарегестрироваться</button>
+        </form>
+      </div>
+    </div>
+    <!-- Acces -->
+    <div id="acces" class="text-center">
+      <div class="fb-close">
+          <img src="images/close.png" alt="">
+      </div>
+      <div class="forma text-center">
+        <p>Оставить заявку<br>
+        для <span>получения карты</span></p>
+        <form action="">
+          <input type="phone" name="phone" placeholder="Ваш телефон">
+          <input type="password" name="password" placeholder="Ваш пароль">
+          <button>Войти</button>
+        </form>
+        <div class="acces">
+          <a href="#">Вход для пользователей, получивших<br>
+          карту</a>
+        </div>
+      </div>
+    </div>        
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/jquery-ui.js"></script> 
     <script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
-    <script src="js/jquery-ui.js"></script>        
+           
   </body>
 </html>
