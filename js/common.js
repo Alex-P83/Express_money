@@ -96,3 +96,9 @@
     });      
   }); 
   
+//Datapicker
+
+  $(function() {
+      $.datepicker.setDefaults( $.datepicker.regional[ "ru" ] );
+      $( "#datepicker" ).datepicker();
+  });    

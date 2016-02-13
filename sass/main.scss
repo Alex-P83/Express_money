@@ -688,16 +688,18 @@ footer{
 }
 .ui-selectmenu-menu,.ui-selectmenu-open{
 	z-index: 99999;
+	
 	.ui-menu-item{
 		padding:1px 0px 1px 20px;
+		color:#999;
 	}
 	.ui-state-focus{
 		background:darken(#fff,4%);
 		color: darken(#ccc,30%);		
-		border:none;		
+		border:none;
+		margin:0;		
 	}
 }
-
 
 //////USER_CABINET////////////
 .content{
@@ -819,8 +821,15 @@ footer{
 }
 .ui-tabs{
 	padding:0px;
+	border:none;
 }
-
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.5em;
+	margin-left: -.6em;
+}
+.ui-icon{
+	background:url('../images/arrow.png') no-repeat center!important;
+}
 //////ADMIN_CABINET////////////
 .content{
 	position:relative;
@@ -2052,4 +2061,54 @@ footer{
 		}
 
 	}	
+}
+
+#datepicker{	
+
+	background: url('../images/calendar.png') no-repeat center right 10px;
+}
+
+#ui-datepicker-div{
+	width:180px;
+	padding:0px!important;
+	// font-size: 0;
+	.ui-datepicker-calendar{
+		width: 100%;
+		td{
+			padding:1px;
+		}
+		th{
+			padding:5px 2px;
+		}
+		span{
+			font-size: 14px;
+			color: $textcolor;
+		}
+		a{
+			display: block;
+			font-size: 14px;
+			color: #808080;
+			text-align: right;
+			padding:1px;
+		}
+
+	}
+	.ui-datepicker-month,.ui-datepicker-year{
+		font-size: 14px;
+		color: $textcolor;
+	}
+
+}
+.ui-datepicker-next{
+	& span{
+		transform: rotateZ(-90deg);
+	}
+}
+.ui-datepicker-prev{
+	& span{
+		transform: rotateZ(90deg);
+	}
+}
+.ui-datepicker-title{
+	height:25px;
 }
