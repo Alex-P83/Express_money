@@ -14,7 +14,6 @@
     <link rel="stylesheet" type="text/css" media="all" href="fancybox/source/jquery.fancybox.css"> 
     <link href="css/jquery-ui.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">   
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,9 +48,9 @@
       <div class="content">
         <div class="container">
           <div class="wrap-tabs">
-            <div id="tabs10">
+            <div id="tabs13">
               <ul>
-                <li><a href="#tabs-1">Кабинет Менеджера</a></li>
+                <li><a href="#tabs-1">Кабинет Администратора</a></li>
                 <li><a href="#tabs-2">Выход</a></li>
               </ul>
               <div id="tabs-1" class="hb">
@@ -59,96 +58,50 @@
                   <div class="breadcrumbs">
                     <a href="#">Мой кабинет</a>
                     <i> > </i>
-                    <a href="#">Найти клиента</a>
+                    <a href="#">Добавить менеджера</a>
                   </div>
-                  <div class="col-xs-7">
-                    <div class="row">
-                      <div class="col-xs-4">
-                          <p>Номер договора:</p>
-                          <input type="text" name="" placeholder="386/45 - АС">  
+                  <form action="">
+                    <div class="col-xs-3">
+                      <input type="text" name="" placeholder="Фамилия">
+                      <input type="text" name="" placeholder="Имя">
+                      <input type="text" name="" placeholder="Отчество">
+                      <input type="text" name="" placeholder="Пол">
+                      <input type="text" name="" placeholder="Дата рождения">
+                      <input type="text" name="" placeholder="Место рождения">
+                      <input type="text" name="" placeholder="Серия и номер паспорта">
+                      <input type="text" name="" placeholder="Кем и когда выдан" class="smallinput">
+                      <input type="text" name="" placeholder="Адрес электронной почты">
+                      <input type="text" name="" placeholder="Номер телефона">
+                    </div>
+                    <div class="col-xs-3">
+                      <select name="select" id="selectmenu7">
+                        <option selected>Отделение</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>
+                    </div>
+                    <div class="col-xs-3">
+                      <div class="wrap-photo text-center">
+                        <select name="select" id="selectmenu6">
+                          <option selected>Тип пользователя</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                        </select>
+                        <div class="photo">
+                          <img src="images/photoface.png" alt="">
+                        </div>
+                        <div class="btn-made">
+                          <a href="#">сделать фотографию</a>
+                        </div>                        
                       </div>
-                      <div class="col-xs-4">        
-                          <p>ФИО:</p>
-                          <input type="text" name="" placeholder="Иванов С.С.">   
+                    </div>
+                    <div class="col-xs-3">
+                      <div class="row">
+                        <button>создать пользователя</button>                       
                       </div>
-                      <div class="col-xs-4">        
-                          <p>Дата заключения:</p>
-                          <input type="text" name="" placeholder="4 / 22 / 2012" id="datepicker">
-                      </div>
-                    </div>                      
-                  </div>
-                  <div class="col-xs-5">
-                    <p>Сумма займа:</p>
-                    <div class="col-xs-6">
-                    <div class="row">
-                      <label for="">от</label>
-                      <input type="text" name="" placeholder="50 000 рублей">
                     </div>
-                    </div>
-                    <div class="col-xs-6">
-                    <div class="row">
-                      <label for="">до</label>
-                      <input type="text" name="" placeholder="100 000 рублей">
-                    </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="wrapp-table text-center">
-                  <table>
-                    <tr>
-                      <th>Номер договора</th>
-                      <th>ФИО</th>
-                      <th>Дата выдачи займа</th>
-                      <th>Сумма займа</th>
-                      <th>Действия</th>
-                    </tr>
-                    <tr>
-                      <td>386/78 - АС</td>
-                      <td>Иванов С.С.</td>
-                      <td>18.12.2015</td>
-                      <td>500 000 рублей</td>
-                      <td>
-                        <a href="#">Перейти к карточке клиента</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>386/78 - АС</td>
-                      <td>Иванов С.С.</td>
-                      <td>18.12.2015</td>
-                      <td>500 000 рублей</td>
-                      <td>
-                        <a href="#">Перейти к карточке клиента</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>386/78 - АС</td>
-                      <td>Иванов С.С.</td>
-                      <td>18.12.2015</td>
-                      <td>500 000 рублей</td>
-                      <td>
-                        <a href="#">Перейти к карточке клиента</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>386/78 - АС</td>
-                      <td>Иванов С.С.</td>
-                      <td>18.12.2015</td>
-                      <td>500 000 рублей</td>
-                      <td>
-                        <a href="#">Перейти к карточке клиента</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>386/78 - АС</td>
-                      <td>Иванов С.С.</td>
-                      <td>18.12.2015</td>
-                      <td>500 000 рублей</td>
-                      <td>
-                        <a href="#">Перейти к карточке клиента</a>
-                      </td>
-                    </tr>                                        
-                  </table>
-                </div>              
+                  </form>
+                </div>            
               </div>
               <div id="tabs-2" class="hb">
                 <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
@@ -163,25 +116,15 @@
     <footer>
       <div class="container">
             <div class="row">
-              <div class="col-xs-8">
-                <div class="pagination-wrap">
-                  <a href="#">1</a>
-                  <a href="#">2</a>
-                  <a href="#">3</a>
-                  <a href="#" class="active-btn">4</a>
-                  <a href="#">5</a>
-                  <a href="#">6</a>
-                  <a href="#">7</a>
-                </div>
-              </div>
+              <div class="col-xs-8"></div>
               <div class="col-xs-4">
                 <div class="btn-calc">
                   <a href="#pop-up" class="pop-up">кредитный калькулятор</a>
-                </div>                 
-              </div>
-              <div class="copy text-center">
-                <p>Copyright © 2016 Экспресс мани</p>
-              </div>
+                </div>                
+              </div>  
+                <div class="copy text-center">
+                  <p>Copyright © 2016 Экспресс мани</p>
+                </div>
             </div>        
       </div>
     </footer>
@@ -219,7 +162,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/common.js"></script>
     <script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/datepicker-ru.js"></script>
+    <script src="js/jquery-ui.js"></script>        
   </body>
 </html>

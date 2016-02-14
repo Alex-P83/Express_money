@@ -80,6 +80,8 @@
     $( "#selectmenu3" ).selectmenu();
     $( "#selectmenu4" ).selectmenu();
     $( "#selectmenu5" ).selectmenu();
+    $( "#selectmenu6" ).selectmenu();
+    $( "#selectmenu7" ).selectmenu();
   });   
 
 //Tabs
@@ -101,7 +103,8 @@
       });
       $( "#tabs12" ).tabs({
         active:2
-      });      
+      });
+      $( "#tabs13" ).tabs();            
     });      
   }); 
   

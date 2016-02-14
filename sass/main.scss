@@ -409,7 +409,7 @@ footer{
 	.calculator{
 		position:relative;
 		width: 474px;
-		height: 370px;
+		height: 410px;
 		background-color: #ffeb80;
 		border-radius: 40px;
 		box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
@@ -463,6 +463,22 @@ footer{
 					border:none;
 				}
 			}
+		}
+		.resault{
+			display: inline-block;
+			width: 407px;
+			text-align: left;
+			margin-top: 10px;
+			input{
+				position:relative;
+				vertical-align: middle;
+				@include input(153px,39px,20px);
+				padding-left: 20px;
+				font-size: 15px;
+				font-weight: 400;
+				color: #999;
+				// margin-left: 35px;
+			}			
 		}
 		.ui-selectmenu-button{
 			width: 407px!important;
@@ -684,6 +700,49 @@ footer{
 				&:hover{
 					text-decoration: none;
 				}
+			}
+		}			
+	}
+}
+
+#thanks{
+	position:relative;
+	padding: 50px 150px;
+	display: none;
+	.fb-close{
+		position:absolute;
+		top:10px;
+		right: 110px;
+		cursor: pointer;
+	}		
+	.wrapblock{
+		position: relative;
+		width: 350px;
+		height: 120px;
+		background-color: #ffeb80;
+		border-radius: 40px;
+		box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
+		&:after{
+			position:absolute;
+			content: url('../images/cloud1.png');
+			top: -35px;
+			left: -150px;
+			z-index: -1;
+		}
+		&:before{
+			position:absolute;
+			content: url('../images/cloud2.png');
+			bottom: -25px;
+			right: -60px;
+			z-index: -1;
+		}		
+		p{
+			font-size: 19px;
+			font-weight: 700;
+			color: $textcolor;
+			padding: 34px 0px 20px 0px;
+			span{
+				text-transform: uppercase;
 			}
 		}			
 	}
@@ -1262,7 +1321,6 @@ footer{
 						padding:13px 23px;	
 					}
 				}
-
 			.ui-state-active{
 				background-color: #f1e68b;
 				& a{
@@ -1392,8 +1450,21 @@ footer{
 							background:lighten(#f1e68b,5%);
 						}
 					}
+				}					
+			}
+			#selectmenu6-button{
+				width: 180px!important;
+				height: 29px;
+				background-color: white;
+				border: 1px solid #cfcfcf;
+				border-radius: 10px;
+				margin:3px 0px 4px;
+				.ui-selectmenu-text{
+					padding:3px 0px 0px 10px;
+					font-size: 15px;
+					color: #ccc;
 				}
-			}	
+			}						
 		}
 	}
 	.btn-calc{
@@ -1425,6 +1496,252 @@ footer{
 	}	
 }
 
+#selectmenu6-menu{
+	background-color: white;
+	border: 1px solid #cfcfcf;
+	border-radius: 10px;
+	.ui-menu-item{
+		background:#fff;
+		padding:1px 0px 1px 8px;
+		margin:0;
+		border:none;
+		color: #ccc;
+	}
+	.ui-state-focus{
+		background:darken(#fff,4%);
+		color: darken(#ccc,30%);
+	}
+}
+#selectmenu6-button{
+	margin:0px 0px 10px 0px;
+}
+
+//////ADMIN_CABINET_ADD_MANAGER////////////
+.content{
+	position:relative;
+	.container{
+		position:relative;
+		height: 100%;
+	}
+	.wrap-tabs{
+		margin-top: 30px;
+		#tabs13{
+			background:none;
+			.hb{
+				height: 440px;
+			}
+			.mt{
+				margin-top: 100px;
+			}
+			.ui-state-default,.ui-tabs-active,.ui-tabs-hover,.ui-state-focus {
+				background:#caecf2;
+				border:none;
+				padding-bottom: 0px;
+					& a{
+						font-size: 15px;
+						font-weight: 400;
+						color: $textcolor;
+						outline: none;
+						padding:13px 23px;	
+					}
+				}
+			.ui-state-active{
+				background-color: #f1e68b;
+				& a{
+					color: $textcolor;
+				}
+			}	
+			.ui-widget-header{
+				background:none;
+				border:none;
+			}
+			.ui-tabs, .ui-tabs-panel{
+				background:#fff;
+				border-radius: 0px 10px 10px 10px;
+				box-shadow: 0 19px 32px rgba(31, 31, 31, 0.1);
+				padding:30px;
+			}
+			.ui-tabs-nav{
+				padding:0;
+			}
+			.ui-corner-top{
+				border-radius:10px 10px 0px 0px;
+			}
+			.breadcrumbs{
+				margin: -5px 0px 10px 15px; 
+				a{
+					font-size: 13px;
+					font-weight: 300;
+					color: #989898;
+					text-decoration: none;
+				}
+				i{
+					display: inline-block;
+					font-size: 13px;
+					font-weight: 300;
+					color: #989898;
+					margin:0px 5px;
+				}
+			}
+			input{
+				width: 243px;
+				height: 29px;
+				font-size: 15px;
+				font-weight: 400;
+				color: #989898;
+				background-color: white;
+				border: 1px solid #cfcfcf;
+				border-radius: 10px;
+				padding-left: 10px;
+				margin: 3px 0px 4px;
+			}
+			input[type="checkbox"]{
+				    display:none;
+				    opacity: 0;
+				    & +label{
+				    	width: 100%;
+				    	text-align: left;
+				    	cursor: pointer;
+				    	margin: 9px 0px;
+				    	font-size: 13px;
+				    	font-weight: 300;
+				    	color: #989898;
+				    }
+				    & +label span{
+					    display:inline-block;
+					    width:13px;
+					    height:13px;
+					    margin:-4px 8px 0 0;
+					    vertical-align:middle;
+					    background:#fff;
+					    border:4px solid #fff;
+					    border-radius:50%;
+					    cursor:pointer;
+					    border: 3px solid #fff;
+					    box-shadow: 0px 0px 0px 1px #cbcbcb;		    	
+				    }
+				    &:checked +label span{
+				    	background-color: $textcolor;
+				    }	
+			}
+			.sms{
+				margin: 0px!important; 
+			}
+			.smallinput{
+				width: 180px;
+			}
+			button{
+				border:none;
+				font-size: 17px;
+				font-weight: 700;
+				color: #ffeb80;
+				text-transform: uppercase;
+				margin-top: 0px;
+				@include button(272px,48px,#50a2cf,24px);
+				&:hover{
+					background:$textcolor;
+				}				
+			}
+			.annotation{
+				margin-top: 65px;
+				p{
+					font-size: 13px;
+					font-weight: 300;
+					color: #989898;
+					line-height: 22px;
+					letter-spacing: 0.015em;
+				}
+			}
+			.wrap-photo{
+				display: inline-block;
+				margin-left: 10px;
+				.btn-made{
+					display: inline-block;
+					margin-top: 20px;
+					a{
+						display: block;
+						width: 180px;
+						height: 29px;
+						background-color: #f1e68b;
+						border-radius: 15px;
+						font-size: 12px;
+						font-weight: 700;
+						text-transform: uppercase;
+						line-height: 32px;
+						color: $textcolor;
+						text-decoration: none;
+						&:hover{
+							background:lighten(#f1e68b,5%);
+						}
+					}
+				}					
+			}
+			#selectmenu6-button,#selectmenu7-button{
+				width: 180px!important;
+				height: 29px;
+				background-color: white;
+				border: 1px solid #cfcfcf;
+				border-radius: 10px;
+				margin:3px 0px 4px;
+				.ui-selectmenu-text{
+					padding:3px 0px 0px 10px;
+					font-size: 15px;
+					color: #ccc;
+				}
+			}
+			#selectmenu7-button{
+				width: 240px!important;
+			}						
+		}
+	}
+	.btn-calc{
+		position: absolute;
+		right:15px;
+		bottom:0px;
+		cursor: pointer;
+		a{
+			display:block;
+			font-size: 17px;
+			line-height: 50px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #ffeb80;
+			padding-left: 28px;
+			@include button(326px,50px,#50a2cf,24px);
+			background-image:url('../images/calc.png');
+			background-repeat: no-repeat;
+			background-position: center right 20px;
+			&:hover{
+				background:$textcolor;
+				background-image:url('../images/calc.png');
+				background-repeat: no-repeat;
+				background-position: center right 20px;
+				text-decoration: none;					
+			}					
+		}
+
+	}	
+}
+
+#selectmenu7-menu{
+	background-color: white;
+	border: 1px solid #cfcfcf;
+	border-radius: 10px;
+	.ui-menu-item{
+		background:#fff;
+		padding:1px 0px 1px 8px;
+		margin:0;
+		border:none;
+		color: #ccc;
+	}
+	.ui-state-focus{
+		background:darken(#fff,4%);
+		color: darken(#ccc,30%);
+	}
+}
+#selectmenu7-button{
+	margin:0px 0px 10px 0px;
+}
 
 //////MANAGER_CABINET_ADD_BID////////////
 .content{
@@ -2071,8 +2388,11 @@ footer{
 	}	
 }
 
-#datepicker, #datepicker1, #datepicker2, #datepicker3, #datepicker4{	
-	background: url('../images/calendar.png') no-repeat center right 10px;
+#datepicker, #datepicker1, #datepicker2, #datepicker3, #datepicker4{
+    background:url('../images/calendar.png') no-repeat center right 10px, -moz-linear-gradient(left, #fff 0%, #fff 77%, #f2f2f2 78%, #f2f2f2 100%);
+    background:url('../images/calendar.png') no-repeat center right 10px, -webkit-linear-gradient(left, #fff 0%,#fff 77%,#f2f2f2 78%,#f2f2f2 100%);
+    background:url('../images/calendar.png') no-repeat center right 10px, -o-linear-gradient(left, #fff 0%,#fff 77%,#f2f2f2 78%,#f2f2f2 100%);
+    background:url('../images/calendar.png') no-repeat center right 10px, linear-gradient(left, #fff 0%,#fff 77%,#f2f2f2 78%,#f2f2f2 100%);
 	&::-webkit-input-placeholder {color:$textcolor;}
 	&::-moz-placeholder          {color:$textcolor;}/* Firefox 19+ */
 	&:-moz-placeholder           {color:$textcolor;}/* Firefox 18- */
