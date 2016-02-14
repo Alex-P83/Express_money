@@ -79,6 +79,7 @@
     $( "#selectmenu2" ).selectmenu();
     $( "#selectmenu3" ).selectmenu();
     $( "#selectmenu4" ).selectmenu();
+    $( "#selectmenu5" ).selectmenu();
   });   
 
 //Tabs
@@ -93,6 +94,14 @@
       $( "#tabs6" ).tabs();
       $( "#tabs7" ).tabs();
       $( "#tabs8" ).tabs();
+      $( "#tabs9" ).tabs();
+      $( "#tabs10" ).tabs();
+      $( "#tabs11" ).tabs({
+        active:1
+      });
+      $( "#tabs12" ).tabs({
+        active:2
+      });      
     });      
   }); 
   
@@ -100,5 +109,9 @@
 
   $(function() {
       $.datepicker.setDefaults( $.datepicker.regional[ "ru" ] );
-      $( "#datepicker" ).datepicker();
+      $( "#datepicker" ).datepicker({});
+      $( "#datepicker1" ).datepicker({});
+      $( "#datepicker2" ).datepicker({});
+      $( "#datepicker3" ).datepicker({});
+      $( "#datepicker4" ).datepicker({});   
   });    

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Express money</title>
+
+    <!-- Bootstrap -->
+    <link rel="SHORTCUT ICON" href="images/favicon.png" type="image/png">     
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="all" href="fancybox/source/jquery.fancybox.css"> 
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">   
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->  
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Top-header -->
+      <div class="top-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-4">
+              <div class="logo">
+                <a href="#">
+                  <img src="images/logo.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-8 text-right">
+              <div class="number">
+                <p>Нужны деньги? Звони! <span>Поможем!</span></p>
+                <h3>8 800 2000 600</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content -->
+      <div class="content">
+        <div class="container">
+          <div class="wrap-tabs">
+            <div id="tabs11">
+              <ul>
+                <li><a href="#tabs-1">Кабинет Константина</a></li>
+                <li><a href="#tabs-2">Детализация платежей</a></li>
+                <li><a href="#tabs-3">История займов</a></li>
+                <li><a href="#tabs-4">Выход</a></li>
+              </ul>
+              <div id="tabs-1" class="hb">
+                <div class="row">
+                  <div class="col-xs-9">
+                    <div class="datauser">
+                      <p>Фамилия:</p>
+                      <h3>Константинопольский</h3>
+                    </div>
+                    <div class="datauser">
+                      <p>Имя:</p>
+                      <h3>Константин</h3>
+                    </div>
+                    <div class="datauser">
+                      <p>Отчество:</p>
+                      <h3>Константинович</h3>
+                    </div>
+                    <div class="datauser">
+                      <p>Номер карты:</p>
+                      <h3>65 47 ** ** 12 34</h3>
+                    </div>
+                    <div class="details">
+                      <h3>Детали Вашего займа:</h3>
+                      <p>Займ на сумму: 500 000 рублей  из них выплачено 320 000 рублей осталось погасить на сумму 180 000 рублей</p>
+                      <p>Ваш текущий процент: 14%</p>
+                      <p>Последний платеж был осуществлен: 14 февраля 2015 года на сумму 50 000 рублей</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-3 text-right">
+                    <div class="photo">
+                      <p>Ваше фото:</p>
+                      <img src="images/photoface.png" alt="">  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="tabs-2" class="hb">
+                <div class="wrapper">
+                  <div class="row">
+                    <div class="col-xs-5">
+                      <p>Выбрать дату:</p>
+                      <div class="col-xs-6">
+                        <div class="row">
+                          <label for="">с</label>
+                          <input type="text" name="" placeholder="4 / 22 / 2012" id="datepicker1">                      
+                        </div>
+                      </div>
+                      <div class="col-xs-6">
+                        <div class="row">
+                          <label for="">по</label>
+                          <input type="text" name="" placeholder="4 / 22 / 2012" id="datepicker2">                     
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrap-table">
+                  <table>
+                    <tr>
+                      <th>Дата оплаты</th>
+                      <th>Сумма оплаты</th>
+                      <th>Остаток по займу</th>
+                    </tr>
+                    <tr>
+                      <td>12.12.13</td>
+                      <td>5 000 рублей</td>
+                      <td>470 000 рублей</td>
+                    </tr>
+                    <tr>
+                      <td>12.12.13</td>
+                      <td>5 000 рублей</td>
+                      <td>470 000 рублей</td>
+                    </tr>
+                    <tr>
+                      <td>12.12.13</td>
+                      <td>5 000 рублей</td>
+                      <td>470 000 рублей</td>
+                    </tr>
+                    <tr>
+                      <td>12.12.13</td>
+                      <td>5 000 рублей</td>
+                      <td>470 000 рублей</td>
+                    </tr>
+                    <tr>
+                      <td>12.12.13</td>
+                      <td>5 000 рублей</td>
+                      <td>470 000 рублей</td>
+                    </tr>
+                    <tr>
+                      <td>12.12.13</td>
+                      <td>5 000 рублей</td>
+                      <td>470 000 рублей</td>
+                    </tr>
+                    <tr>
+                      <td>12.12.13</td>
+                      <td>5 000 рублей</td>
+                      <td>470 000 рублей</td>
+                    </tr>                                       
+                  </table>
+                </div>
+              </div>
+              <div id="tabs-3" class="hb">
+                <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+              </div>
+              <div id="tabs-4" class="hb">
+                <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+              </div>              
+            </div>
+          </div>
+        </div>        
+      </div>
+      <div class="footer-push"></div>
+    </header>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                  <div class="pagination-wrap">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#" class="active-btn">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                  </div>
+                </div>
+                <div class="col-xs-4">
+                  <div class="btn-calc">
+                    <a href="#pop-up" class="pop-up">кредитный калькулятор</a>
+                  </div>                  
+                </div>
+                <div class="copy text-center">
+                  <p>Copyright © 2016 Экспресс мани</p>
+                </div>
+            </div>        
+      </div>
+    </footer>
+    <!-- Pop-up -->
+    <div id="pop-up" class="text-center">
+      <div class="fb-close">
+          <img src="images/close.png" alt="">
+      </div>
+      <div class="calculator">
+        <h3>Кредитный калькулятор</h3>
+        <form action="">
+          <div class="account">
+            <input type="text" id="amount1">
+            <div id="slider-range-max1"></div> 
+          </div>
+          <div class="account">
+            <input type="text" id="amount2">
+            <div id="slider-range-max2"></div> 
+          </div>
+          <select name="select" id="selectmenu1">
+            <option selected>Правило расчета</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          <button>составить заявку</button>            
+        </form>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/datepicker-ru.js"></script>        
+  </body>
+</html>
