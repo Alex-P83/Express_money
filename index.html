@@ -63,9 +63,6 @@
                     позвоним Вам в ближайшее время, что бы<br> 
                     договорится об условиях передачи карты.</p>
                   </div>
-                  <div class="btn-calc">
-                    <a href="#pop-up" class="pop-up">калькулятор</a>
-                  </div>
                 </div>
               </div>
               <div class="col-xs-4">
@@ -98,9 +95,15 @@
     <footer>
       <div class="container">
             <div class="row">
-                <div class="copy text-center">
-                  <p>Copyright © 2016 Экспресс мани</p>
-                </div>
+              <div class="col-xs-8">
+                <div class="btn-calc bcm">
+                  <a href="#pop-up" class="pop-up">калькулятор</a>
+                </div>                 
+              </div>
+              <div class="col-xs-4"></div>
+              <div class="copy text-center">
+                <p>Copyright © 2016 Экспресс мани</p>
+              </div>
             </div>        
       </div>
     </footer>
@@ -111,7 +114,7 @@
       </div>
       <div class="calculator">
         <h3>Кредитный калькулятор</h3>
-        <form class="top-form" action="#" method="post">
+        <form>
           <div class="account">
             <input type="text" id="amount1">
             <div id="slider-range-max1"></div> 
@@ -126,7 +129,7 @@
             <option value="2">2</option>
           </select>
           <div class="resault">
-            <input type="text">
+            <input type="text" placeholder="Oстаток">
           </div>
           <button>составить заявку</button>            
         </form>
@@ -156,7 +159,7 @@
       <div class="forma text-center">
         <p>Оставить заявку<br>
         для <span>получения карты</span></p>
-        <form action="">
+        <form class="top-form" action="#" method="post">
           <input type="phone" name="phone" placeholder="Ваш телефон">
           <input type="password" name="password" placeholder="Ваш пароль">
           <button>Войти</button>
@@ -184,6 +187,7 @@
     <script src="js/common.js"></script>
     <script src="js/jquery-ui.js"></script> 
     <script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
-           
+    <script src="js/top-form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>          
   </body>
 </html>

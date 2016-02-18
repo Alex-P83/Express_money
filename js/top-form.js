@@ -22,9 +22,10 @@
               if(data == "true") {
                 $.fancybox.close()
                 $.fancybox({
-                      href: '#senks'
+                      closeBtn: false,
+                      href: '#thanks'
                   });
-           setTimeout("$.fancybox.close()", 300000);
+           setTimeout("$.fancybox.close()", 3000);
               }
             }
           });
