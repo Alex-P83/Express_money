@@ -65,8 +65,12 @@
                       <input type="text" name="" placeholder="Фамилия">
                       <input type="text" name="" placeholder="Имя">
                       <input type="text" name="" placeholder="Отчество">
-                      <input type="text" name="" placeholder="Пол">
-                      <input type="text" name="" placeholder="Дата рождения">
+                      <select name="select" id="selectmenu9">
+                        <option selected disabled>Пол</option>
+                        <option value="1">M</option>
+                        <option value="2">Ж</option>
+                      </select>
+                      <input type="text" name="" placeholder="Дата рождения" id="datepicker6" class="smallinput">
                       <input type="text" name="" placeholder="Место рождения">
                       <input type="text" name="" placeholder="Серия и номер паспорта">
                       <input type="text" name="" placeholder="Кем и когда выдан" class="smallinput">
@@ -75,7 +79,7 @@
                     </div>
                     <div class="col-xs-3">
                       <select name="select" id="selectmenu7">
-                        <option selected>Отделение</option>
+                        <option selected disabled>Отделение</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                       </select>
@@ -83,7 +87,7 @@
                     <div class="col-xs-3">
                       <div class="wrap-photo text-center">
                         <select name="select" id="selectmenu6">
-                          <option selected>Тип пользователя</option>
+                          <option selected disabled>Тип пользователя</option>
                           <option value="1">1</option>
                           <option value="2">2</option>
                         </select>
@@ -91,7 +95,7 @@
                           <img src="images/photoface.png" alt="">
                         </div>
                         <div class="btn-made">
-                          <a href="#">сделать фотографию</a>
+                          <a href="#">Загрузить фотографию</a>
                         </div>                        
                       </div>
                     </div>
@@ -123,7 +127,7 @@
                 </div>                
               </div>  
                 <div class="copy text-center">
-                  <p>Copyright © 2016 Экспресс мани</p>
+                  <p>Copyright © 2016 Экспресс мани | Разработка и поддержка: <a href="http://ITPolice.ru" target="_blank">ITPolice.ru</p>
                 </div>
             </div>        
       </div>
@@ -145,7 +149,7 @@
             <div id="slider-range-max2"></div> 
           </div>
           <select name="select" id="selectmenu1">
-            <option selected>Правило расчета</option>
+            <option selected disabled>Правило расчета</option>
             <option value="1">1</option>
             <option value="2">2</option>
           </select>

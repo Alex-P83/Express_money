@@ -30,7 +30,7 @@
           <div class="row">
             <div class="col-xs-4">
               <div class="logo">
-                <a href="#">
+                <a href="index.html">
                   <img src="images/logo.png" alt="">
                 </a>
               </div>
@@ -73,16 +73,60 @@
                       <input type="phone" name="phone" placeholder="Ваш телефон">
                       <input type="password" name="password" placeholder="Ваш пароль">
                       <div class="reg_pass">
-                        <a href="#">Забыли пароль?</a> <span>/</span> <a href="#registration" class="pop-up">Регистрация</a>
+                        <a href="#" class="parol">Забыли пароль?</a> <span>/</span> <a href="#" class="reg">Регистрация</a>
                       </div>
                       <input type="checkbox" name="remember" id="remember">
                       <label for="remember" class="remember"><span></span>Запомнить меня</label>
                       <button>Войти</button>
                     </form>
                     <div class="acces">
-                      <a href="#acces" class="pop-up">Получить доступ в личный кабинет</a>
+                      <a href="#">Получить доступ в личный кабинет</a>
                     </div>
                   </div>
+                  <div id="registration" class="text-center">
+                    <div class="wrap-forma">
+                      <h3>Регистрация</h3>
+                      <form action="">
+                        <input type="text" name="" placeholder="Ваше имя">
+                        <input type="text" name="" placeholder="Ваша фамилия">
+                        <input type="text" name="" placeholder="Ваше отчество">
+                        <input type="text" name="" placeholder="Ваш телефон">
+                        <button>Зарегестрироваться</button>
+                      </form>
+                    </div>
+                  </div>
+                  <div id="acces" class="text-center">
+                    <div class="formas text-center">
+                      <p>Оставить заявку<br>
+                      для <span>получения карты</span></p>
+                      <form class="top-form" action="#" method="post">
+                        <input type="phone" name="phone" placeholder="Ваш телефон">
+                        <input type="password" name="password" placeholder="Ваш пароль">
+                        <button>Войти</button>
+                      </form>
+                      <div class="acces">
+                        <a href="#">Вход для пользователей, получивших<br>
+                        карту</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="password" class="text-center">
+                    <div class="formas text-center">
+                      <p>Восстановление пароля</p>
+                      <form action="">
+                        <div class="mobileOk">
+                          <input type="phone" name="phone" placeholder="Ваш телефон">
+                          <a href="#">Ok</a>  
+                        </div>
+                        <span>На Ваш телефон будет отправлено<br>
+                        сообщение с подтверждением.<br>
+                        Введите его ниже:</span>
+                        <input type="password" name="newpassword" placeholder="Введите новый пароль">
+                        <input type="password" name="repeatpassword" placeholder="Повторите новый пароль">
+                        <button>Войти</button>
+                      </form>
+                    </div>
+                  </div>                  
                 </div>
               </div>          
             </div>
@@ -102,7 +146,7 @@
               </div>
               <div class="col-xs-4"></div>
               <div class="copy text-center">
-                <p>Copyright © 2016 Экспресс мани</p>
+                <p>Copyright © 2016 Экспресс мани | Разработка и поддержка: <a href="http://ITPolice.ru" target="_blank">ITPolice.ru</a></p>
               </div>
             </div>        
       </div>
@@ -124,7 +168,7 @@
             <div id="slider-range-max2"></div> 
           </div>
           <select name="select" id="selectmenu1">
-            <option selected>Правило расчета</option>
+            <option selected disabled>Правило расчета</option>
             <option value="1">1</option>
             <option value="2">2</option>
           </select>
@@ -133,41 +177,6 @@
           </div>
           <button>составить заявку</button>            
         </form>
-      </div>
-    </div>
-    <!-- Registration -->
-    <div id="registration" class="text-center">
-      <div class="fb-close">
-          <img src="images/close.png" alt="">
-      </div>
-      <div class="wrap-forma">
-        <h3>Регистрация</h3>
-        <form action="">
-          <input type="text" name="" placeholder="Ваше имя">
-          <input type="text" name="" placeholder="Ваша фамилия">
-          <input type="text" name="" placeholder="Ваше отчество">
-          <input type="text" name="" placeholder="Ваш телефон">
-          <button>Зарегестрироваться</button>
-        </form>
-      </div>
-    </div>
-    <!-- Acces -->
-    <div id="acces" class="text-center">
-      <div class="fb-close">
-          <img src="images/close.png" alt="">
-      </div>
-      <div class="forma text-center">
-        <p>Оставить заявку<br>
-        для <span>получения карты</span></p>
-        <form class="top-form" action="#" method="post">
-          <input type="phone" name="phone" placeholder="Ваш телефон">
-          <input type="password" name="password" placeholder="Ваш пароль">
-          <button>Войти</button>
-        </form>
-        <div class="acces">
-          <a href="#">Вход для пользователей, получивших<br>
-          карту</a>
-        </div>
       </div>
     </div>
     <!-- Thanks -->
@@ -179,7 +188,17 @@
         <p><span>Спасибо,</span><br>
         мы скоро свяжемся с Вами!</p>
       </div>
-    </div>            
+    </div>
+    <!-- Thanks -->
+    <div id="ura" class="text-center">
+      <div class="fb-close">
+          <img src="images/close.png" alt="">
+      </div>
+      <div class="wrapblock text-center">
+        <p><span>Ура!</span><br>
+        Ваш пароль восстановлен!</p>
+      </div>
+    </div>                
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

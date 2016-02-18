@@ -7496,6 +7496,9 @@ header .wrapper .calculation .wordblock p {
 header .wrapper .calculation .wordblock p span {
   text-transform: uppercase;
 }
+header .wrapper .wrap-forma {
+  min-height: 430px;
+}
 header .wrapper .wrap-forma .forma {
   position: relative;
   width: 350px;
@@ -7605,6 +7608,323 @@ header .wrapper .wrap-forma .forma .acces a {
   margin-top: 26px;
 }
 header .wrapper .wrap-forma .forma .acces a:hover {
+  text-decoration: none;
+}
+header .wrapper .wrap-forma #registration {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  display: none;
+}
+header .wrapper .wrap-forma #registration .wrap-forma {
+  position: relative;
+  width: 350px;
+  height: 430px;
+  background-color: #ffeb80;
+  border-radius: 40px;
+  box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
+}
+header .wrapper .wrap-forma #registration .wrap-forma h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #0065a0;
+  text-transform: uppercase;
+  padding: 30px 0px;
+  margin: 0px;
+}
+header .wrapper .wrap-forma #registration .wrap-forma input {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #999;
+  padding-left: 20px;
+  width: 279px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+header .wrapper .wrap-forma #registration .wrap-forma button {
+  width: 279px;
+  height: 60px;
+  background-color: #50a2cf;
+  border-radius: 29px;
+  box-shadow: inset 0 -3px 0 #188acc;
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffeb80;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+header .wrapper .wrap-forma #registration .wrap-forma button:hover {
+  background: #0065a0;
+}
+header .wrapper .wrap-forma #acces {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  display: none;
+}
+header .wrapper .wrap-forma #acces .formas {
+  position: relative;
+  width: 350px;
+  height: 390px;
+  background-color: #ffeb80;
+  border-radius: 40px;
+  box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
+}
+header .wrapper .wrap-forma #acces .formas p {
+  font-size: 19px;
+  font-weight: 700;
+  color: #0065a0;
+  padding: 34px 0px 20px 0px;
+}
+header .wrapper .wrap-forma #acces .formas p span {
+  text-transform: uppercase;
+}
+header .wrapper .wrap-forma #acces .formas input {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #999;
+  padding-left: 20px;
+  width: 279px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+header .wrapper .wrap-forma #acces .formas .reg_pass {
+  margin: 15px 0px 0px;
+}
+header .wrapper .wrap-forma #acces .formas .reg_pass a {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #0065a0;
+}
+header .wrapper .wrap-forma #acces .formas .reg_pass a:hover {
+  text-decoration: none;
+}
+header .wrapper .wrap-forma #acces .formas .reg_pass span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0065a0;
+  margin: 0px 15px;
+}
+header .wrapper .wrap-forma #acces .formas #remember {
+  display: none;
+  opacity: 0;
+}
+header .wrapper .wrap-forma #acces .formas #remember + label {
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  margin: 15px 0px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  padding-left: 50px;
+}
+header .wrapper .wrap-forma #acces .formas #remember + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -4px 8px 0 0;
+  vertical-align: middle;
+  background: #fff;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+header .wrapper .wrap-forma #acces .formas #remember:checked + label span {
+  background-color: #f7d420;
+}
+header .wrapper .wrap-forma #acces .formas button {
+  border: none;
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffeb80;
+  text-transform: uppercase;
+  width: 279px;
+  height: 60px;
+  background-color: #50a2cf;
+  border-radius: 29px;
+  box-shadow: inset 0 -3px 0 #188acc;
+  margin-top: 20px;
+}
+header .wrapper .wrap-forma #acces .formas button:hover {
+  background: #0065a0;
+}
+header .wrapper .wrap-forma #acces .formas .acces {
+  height: 75px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #efd51d;
+  border-radius: 0px 0px 40px 40px;
+}
+header .wrapper .wrap-forma #acces .formas .acces a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0065a0;
+  text-decoration: underline;
+  margin-top: 23px;
+}
+header .wrapper .wrap-forma #acces .formas .acces a:hover {
+  text-decoration: none;
+}
+header .wrapper .wrap-forma #password {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  display: none;
+}
+header .wrapper .wrap-forma #password .formas {
+  position: relative;
+  width: 350px;
+  height: 390px;
+  background-color: #ffeb80;
+  border-radius: 40px;
+  box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
+}
+header .wrapper .wrap-forma #password .formas p {
+  font-size: 19px;
+  font-weight: 700;
+  color: #0065a0;
+  padding: 34px 0px 20px 0px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+header .wrapper .wrap-forma #password .formas span {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #666;
+  margin: 10px 0px;
+}
+header .wrapper .wrap-forma #password .formas input {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #999;
+  padding-left: 20px;
+  width: 279px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+header .wrapper .wrap-forma #password .formas .mobileOk input {
+  width: 200px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+header .wrapper .wrap-forma #password .formas .mobileOk a {
+  display: inline-block;
+  font-size: 17px;
+  line-height: 39px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffeb80;
+  width: 64px;
+  height: 39px;
+  background-color: #50a2cf;
+  border-radius: 24px;
+  box-shadow: inset 0 -3px 0 #188acc;
+  vertical-align: middle;
+}
+header .wrapper .wrap-forma #password .formas .mobileOk a:hover {
+  background: #0065a0;
+  text-decoration: none;
+}
+header .wrapper .wrap-forma #password .formas .reg_pass {
+  margin: 15px 0px 0px;
+}
+header .wrapper .wrap-forma #password .formas .reg_pass a {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #0065a0;
+}
+header .wrapper .wrap-forma #password .formas .reg_pass a:hover {
+  text-decoration: none;
+}
+header .wrapper .wrap-forma #password .formas .reg_pass span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0065a0;
+  margin: 0px 15px;
+}
+header .wrapper .wrap-forma #password .formas #remember {
+  display: none;
+  opacity: 0;
+}
+header .wrapper .wrap-forma #password .formas #remember + label {
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  margin: 15px 0px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  padding-left: 50px;
+}
+header .wrapper .wrap-forma #password .formas #remember + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -4px 8px 0 0;
+  vertical-align: middle;
+  background: #fff;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+header .wrapper .wrap-forma #password .formas #remember:checked + label span {
+  background-color: #f7d420;
+}
+header .wrapper .wrap-forma #password .formas button {
+  border: none;
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffeb80;
+  text-transform: uppercase;
+  width: 279px;
+  height: 60px;
+  background-color: #50a2cf;
+  border-radius: 29px;
+  box-shadow: inset 0 -3px 0 #188acc;
+  margin-top: 15px;
+}
+header .wrapper .wrap-forma #password .formas button:hover {
+  background: #0065a0;
+}
+header .wrapper .wrap-forma #password .formas .acces {
+  height: 75px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #efd51d;
+  border-radius: 0px 0px 40px 40px;
+}
+header .wrapper .wrap-forma #password .formas .acces a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0065a0;
+  text-decoration: underline;
+  margin-top: 23px;
+}
+header .wrapper .wrap-forma #password .formas .acces a:hover {
   text-decoration: none;
 }
 
@@ -7851,223 +8171,18 @@ footer .pagination-wrap a:last-child:after {
   background: #0065a0;
 }
 
-#registration {
+#thanks, #ura {
   position: relative;
   padding: 50px 150px;
   display: none;
 }
-#registration .fb-close {
+#thanks .fb-close, #ura .fb-close {
   position: absolute;
   top: 10px;
   right: 110px;
   cursor: pointer;
 }
-#registration .wrap-forma {
-  position: relative;
-  width: 350px;
-  height: 430px;
-  background-color: #ffeb80;
-  border-radius: 40px;
-  box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
-}
-#registration .wrap-forma:after {
-  position: absolute;
-  content: url("../images/cloud1.png");
-  top: -35px;
-  left: -150px;
-  z-index: -1;
-}
-#registration .wrap-forma:before {
-  position: absolute;
-  content: url("../images/cloud2.png");
-  bottom: -25px;
-  right: -60px;
-  z-index: -1;
-}
-#registration .wrap-forma h3 {
-  font-size: 19px;
-  font-weight: 700;
-  color: #0065a0;
-  text-transform: uppercase;
-  padding: 30px 0px;
-  margin: 0px;
-}
-#registration .wrap-forma input {
-  margin-bottom: 10px;
-  font-size: 15px;
-  color: #999;
-  padding-left: 20px;
-  width: 279px;
-  height: 39px;
-  background-color: #fff;
-  border-radius: 20px;
-  border: none;
-}
-#registration .wrap-forma button {
-  width: 279px;
-  height: 60px;
-  background-color: #50a2cf;
-  border-radius: 29px;
-  box-shadow: inset 0 -3px 0 #188acc;
-  font-size: 19px;
-  font-weight: 700;
-  color: #ffeb80;
-  text-transform: uppercase;
-  margin-top: 30px;
-}
-#registration .wrap-forma button:hover {
-  background: #0065a0;
-}
-
-#acces {
-  position: relative;
-  padding: 50px 150px;
-  display: none;
-}
-#acces .fb-close {
-  position: absolute;
-  top: 10px;
-  right: 110px;
-  cursor: pointer;
-}
-#acces .forma {
-  position: relative;
-  width: 350px;
-  height: 390px;
-  background-color: #ffeb80;
-  border-radius: 40px;
-  box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
-}
-#acces .forma:after {
-  position: absolute;
-  content: url("../images/cloud1.png");
-  top: -35px;
-  left: -150px;
-  z-index: -1;
-}
-#acces .forma:before {
-  position: absolute;
-  content: url("../images/cloud2.png");
-  bottom: -25px;
-  right: -60px;
-  z-index: -1;
-}
-#acces .forma p {
-  font-size: 19px;
-  font-weight: 700;
-  color: #0065a0;
-  padding: 34px 0px 20px 0px;
-}
-#acces .forma p span {
-  text-transform: uppercase;
-}
-#acces .forma input {
-  margin-bottom: 10px;
-  font-size: 15px;
-  color: #999;
-  padding-left: 20px;
-  width: 279px;
-  height: 39px;
-  background-color: #fff;
-  border-radius: 20px;
-  border: none;
-}
-#acces .forma .reg_pass {
-  margin: 15px 0px 0px;
-}
-#acces .forma .reg_pass a {
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: underline;
-  color: #0065a0;
-}
-#acces .forma .reg_pass a:hover {
-  text-decoration: none;
-}
-#acces .forma .reg_pass span {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 600;
-  color: #0065a0;
-  margin: 0px 15px;
-}
-#acces .forma #remember {
-  display: none;
-  opacity: 0;
-}
-#acces .forma #remember + label {
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  margin: 15px 0px 18px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #666;
-  padding-left: 50px;
-}
-#acces .forma #remember + label span {
-  display: inline-block;
-  width: 19px;
-  height: 19px;
-  margin: -4px 8px 0 0;
-  vertical-align: middle;
-  background: #fff;
-  border: 4px solid #fff;
-  border-radius: 50%;
-  cursor: pointer;
-}
-#acces .forma #remember:checked + label span {
-  background-color: #f7d420;
-}
-#acces .forma button {
-  border: none;
-  font-size: 19px;
-  font-weight: 700;
-  color: #ffeb80;
-  text-transform: uppercase;
-  width: 279px;
-  height: 60px;
-  background-color: #50a2cf;
-  border-radius: 29px;
-  box-shadow: inset 0 -3px 0 #188acc;
-  margin-top: 20px;
-}
-#acces .forma button:hover {
-  background: #0065a0;
-}
-#acces .forma .acces {
-  height: 75px;
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  background-color: #efd51d;
-  border-radius: 0px 0px 40px 40px;
-}
-#acces .forma .acces a {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 600;
-  color: #0065a0;
-  text-decoration: underline;
-  margin-top: 23px;
-}
-#acces .forma .acces a:hover {
-  text-decoration: none;
-}
-
-#thanks {
-  position: relative;
-  padding: 50px 150px;
-  display: none;
-}
-#thanks .fb-close {
-  position: absolute;
-  top: 10px;
-  right: 110px;
-  cursor: pointer;
-}
-#thanks .wrapblock {
+#thanks .wrapblock, #ura .wrapblock {
   position: relative;
   width: 350px;
   height: 120px;
@@ -8075,27 +8190,27 @@ footer .pagination-wrap a:last-child:after {
   border-radius: 40px;
   box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
 }
-#thanks .wrapblock:after {
+#thanks .wrapblock:after, #ura .wrapblock:after {
   position: absolute;
   content: url("../images/cloud1.png");
   top: -35px;
   left: -150px;
   z-index: -1;
 }
-#thanks .wrapblock:before {
+#thanks .wrapblock:before, #ura .wrapblock:before {
   position: absolute;
   content: url("../images/cloud2.png");
   bottom: -25px;
   right: -60px;
   z-index: -1;
 }
-#thanks .wrapblock p {
+#thanks .wrapblock p, #ura .wrapblock p {
   font-size: 19px;
   font-weight: 700;
   color: #0065a0;
   padding: 34px 0px 20px 0px;
 }
-#thanks .wrapblock p span {
+#thanks .wrapblock p span, #ura .wrapblock p span {
   text-transform: uppercase;
 }
 
@@ -8144,7 +8259,7 @@ footer .pagination-wrap a:last-child:after {
   outline: none;
   padding: 13px 23px;
 }
-.content .wrap-tabs #tabs1 .ui-state-active {
+.content .wrap-tabs #tabs1 .ui-state-active, .content .wrap-tabs #tabs1 .ui-state-hover {
   background: #fff;
 }
 .content .wrap-tabs #tabs1 .ui-widget-header {
@@ -8281,6 +8396,9 @@ footer .pagination-wrap a:last-child:after {
 .content .wrap-tabs #tabs2 .ui-state-active {
   background-color: #f1e68b;
 }
+.content .wrap-tabs #tabs2 .ui-state-hover {
+  background-color: #f1e68b;
+}
 .content .wrap-tabs #tabs2 .ui-widget-header {
   background: none;
   border: none;
@@ -8355,6 +8473,12 @@ footer .pagination-wrap a:last-child:after {
   background-color: #83d076;
 }
 .content .wrap-tabs #tabs3 .ui-state-active a {
+  color: #fff;
+}
+.content .wrap-tabs #tabs3 .ui-state-hover {
+  background-color: #83d076;
+}
+.content .wrap-tabs #tabs3 .ui-state-hover a {
   color: #fff;
 }
 .content .wrap-tabs #tabs3 .ui-widget-header {
@@ -8458,10 +8582,10 @@ footer .pagination-wrap a:last-child:after {
   outline: none;
   padding: 13px 23px;
 }
-.content .wrap-tabs #tabs4 .ui-state-active {
+.content .wrap-tabs #tabs4 .ui-state-active, .content .wrap-tabs #tabs4 .ui-state-hover {
   background-color: #83d076;
 }
-.content .wrap-tabs #tabs4 .ui-state-active a {
+.content .wrap-tabs #tabs4 .ui-state-active a, .content .wrap-tabs #tabs4 .ui-state-hover a {
   color: #fff;
 }
 .content .wrap-tabs #tabs4 .ui-widget-header {
@@ -8593,6 +8717,22 @@ footer .pagination-wrap a:last-child:after {
 .content .wrap-tabs #tabs4 .wrap-photo .btn-made a:hover {
   background: #f4eba2;
 }
+.content .wrap-tabs #tabs4 #selectmenu10-button {
+  width: 180px !important;
+  height: 29px;
+  background-color: white;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  margin: 3px 0px 4px;
+}
+.content .wrap-tabs #tabs4 #selectmenu10-button .ui-selectmenu-text {
+  padding: 3px 0px 0px 10px;
+  font-size: 15px;
+  color: #ccc;
+}
+.content .wrap-tabs #tabs4 #selectmenu10-button {
+  width: 240px !important;
+}
 .content .btn-calc {
   position: absolute;
   right: 15px;
@@ -8622,6 +8762,27 @@ footer .pagination-wrap a:last-child:after {
   background-repeat: no-repeat;
   background-position: center right 20px;
   text-decoration: none;
+}
+
+#selectmenu9-menu {
+  background-color: white;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+}
+#selectmenu9-menu .ui-menu-item {
+  background: #fff;
+  padding: 1px 0px 1px 8px;
+  margin: 0;
+  border: none;
+  color: #ccc;
+}
+#selectmenu9-menu .ui-state-focus {
+  background: whitesmoke;
+  color: gray;
+}
+
+#selectmenu9-button, #selectmenu9-button {
+  margin: 0px 0px 10px 0px;
 }
 
 .content {
@@ -8659,6 +8820,12 @@ footer .pagination-wrap a:last-child:after {
   background-color: #f1e68b;
 }
 .content .wrap-tabs #tabs7 .ui-state-active a {
+  color: #0065a0;
+}
+.content .wrap-tabs #tabs7 .ui-state-hover {
+  background-color: #f1e68b;
+}
+.content .wrap-tabs #tabs7 .ui-state-hover a {
   color: #0065a0;
 }
 .content .wrap-tabs #tabs7 .ui-widget-header {
@@ -8803,6 +8970,19 @@ footer .pagination-wrap a:last-child:after {
   font-size: 15px;
   color: #ccc;
 }
+.content .wrap-tabs #tabs7 #selectmenu8-button {
+  width: 243px !important;
+  height: 29px;
+  background-color: white;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  margin: 3px 0px 4px;
+}
+.content .wrap-tabs #tabs7 #selectmenu8-button .ui-selectmenu-text {
+  padding: 3px 0px 0px 10px;
+  font-size: 15px;
+  color: #ccc;
+}
 .content .btn-calc {
   position: absolute;
   right: 15px;
@@ -8834,24 +9014,24 @@ footer .pagination-wrap a:last-child:after {
   text-decoration: none;
 }
 
-#selectmenu6-menu {
+#selectmenu6-menu, #selectmenu8-menu {
   background-color: white;
   border: 1px solid #cfcfcf;
   border-radius: 10px;
 }
-#selectmenu6-menu .ui-menu-item {
+#selectmenu6-menu .ui-menu-item, #selectmenu8-menu .ui-menu-item {
   background: #fff;
   padding: 1px 0px 1px 8px;
   margin: 0;
   border: none;
   color: #ccc;
 }
-#selectmenu6-menu .ui-state-focus {
+#selectmenu6-menu .ui-state-focus, #selectmenu8-menu .ui-state-focus {
   background: whitesmoke;
   color: gray;
 }
 
-#selectmenu6-button {
+#selectmenu6-button, #selectmenu8-button {
   margin: 0px 0px 10px 0px;
 }
 
@@ -8890,6 +9070,12 @@ footer .pagination-wrap a:last-child:after {
   background-color: #f1e68b;
 }
 .content .wrap-tabs #tabs13 .ui-state-active a {
+  color: #0065a0;
+}
+.content .wrap-tabs #tabs13 .ui-state-hover {
+  background-color: #f1e68b;
+}
+.content .wrap-tabs #tabs13 .ui-state-hover a {
   color: #0065a0;
 }
 .content .wrap-tabs #tabs13 .ui-widget-header {
@@ -9021,7 +9207,7 @@ footer .pagination-wrap a:last-child:after {
 .content .wrap-tabs #tabs13 .wrap-photo .btn-made a:hover {
   background: #f4eba2;
 }
-.content .wrap-tabs #tabs13 #selectmenu6-button, .content .wrap-tabs #tabs13 #selectmenu7-button {
+.content .wrap-tabs #tabs13 #selectmenu6-button, .content .wrap-tabs #tabs13 #selectmenu7-button, .content .wrap-tabs #tabs13 #selectmenu9-button {
   width: 180px !important;
   height: 29px;
   background-color: white;
@@ -9029,12 +9215,12 @@ footer .pagination-wrap a:last-child:after {
   border-radius: 10px;
   margin: 3px 0px 4px;
 }
-.content .wrap-tabs #tabs13 #selectmenu6-button .ui-selectmenu-text, .content .wrap-tabs #tabs13 #selectmenu7-button .ui-selectmenu-text {
+.content .wrap-tabs #tabs13 #selectmenu6-button .ui-selectmenu-text, .content .wrap-tabs #tabs13 #selectmenu7-button .ui-selectmenu-text, .content .wrap-tabs #tabs13 #selectmenu9-button .ui-selectmenu-text {
   padding: 3px 0px 0px 10px;
   font-size: 15px;
   color: #ccc;
 }
-.content .wrap-tabs #tabs13 #selectmenu7-button {
+.content .wrap-tabs #tabs13 #selectmenu7-button, .content .wrap-tabs #tabs13 #selectmenu9-button {
   width: 240px !important;
 }
 .content .btn-calc {
@@ -9068,24 +9254,24 @@ footer .pagination-wrap a:last-child:after {
   text-decoration: none;
 }
 
-#selectmenu7-menu {
+#selectmenu7-menu, #selectmenu9-menu, #selectmenu10-menu {
   background-color: white;
   border: 1px solid #cfcfcf;
   border-radius: 10px;
 }
-#selectmenu7-menu .ui-menu-item {
+#selectmenu7-menu .ui-menu-item, #selectmenu9-menu .ui-menu-item, #selectmenu10-menu .ui-menu-item {
   background: #fff;
   padding: 1px 0px 1px 8px;
   margin: 0;
   border: none;
   color: #ccc;
 }
-#selectmenu7-menu .ui-state-focus {
+#selectmenu7-menu .ui-state-focus, #selectmenu9-menu .ui-state-focus, #selectmenu10-menu .ui-state-focus {
   background: whitesmoke;
   color: gray;
 }
 
-#selectmenu7-button {
+#selectmenu7-button, #selectmenu9-button, #selectmenu10-button {
   margin: 0px 0px 10px 0px;
 }
 
@@ -9120,10 +9306,10 @@ footer .pagination-wrap a:last-child:after {
   outline: none;
   padding: 13px 23px;
 }
-.content .wrap-tabs #tabs5 .ui-state-active {
+.content .wrap-tabs #tabs5 .ui-state-active, .content .wrap-tabs #tabs5 .ui-state-hover {
   background-color: #83d076;
 }
-.content .wrap-tabs #tabs5 .ui-state-active a {
+.content .wrap-tabs #tabs5 .ui-state-active a, .content .wrap-tabs #tabs5 .ui-state-hover a {
   color: #fff;
 }
 .content .wrap-tabs #tabs5 .ui-widget-header {
@@ -9365,6 +9551,12 @@ footer .pagination-wrap a:last-child:after {
 .content .wrap-tabs #tabs6 .ui-state-active a {
   color: #0065a0;
 }
+.content .wrap-tabs #tabs6 .ui-state-hover {
+  background-color: #f1e68b;
+}
+.content .wrap-tabs #tabs6 .ui-state-hover a {
+  color: #0065a0;
+}
 .content .wrap-tabs #tabs6 .ui-widget-header {
   background: none;
   border: none;
@@ -9604,6 +9796,12 @@ footer .pagination-wrap a:last-child:after {
 .content .wrap-tabs #tabs8 .ui-state-active a {
   color: #0065a0;
 }
+.content .wrap-tabs #tabs8 .ui-state-hover {
+  background-color: #f1e68b;
+}
+.content .wrap-tabs #tabs8 .ui-state-hover a {
+  color: #0065a0;
+}
 .content .wrap-tabs #tabs8 .ui-widget-header {
   background: none;
   border: none;
@@ -9764,6 +9962,13 @@ footer .pagination-wrap a:last-child:after {
   color: #0065a0;
 }
 
+#datepicker5, #datepicker6, #datepicker7 {
+  background: url("../images/calendar.png") no-repeat center right 10px, -moz-linear-gradient(left, #fff 0%, #fff 77%, #f2f2f2 78%, #f2f2f2 100%);
+  background: url("../images/calendar.png") no-repeat center right 10px, -webkit-linear-gradient(left, #fff 0%, #fff 77%, #f2f2f2 78%, #f2f2f2 100%);
+  background: url("../images/calendar.png") no-repeat center right 10px, -o-linear-gradient(left, #fff 0%, #fff 77%, #f2f2f2 78%, #f2f2f2 100%);
+  background: url("../images/calendar.png") no-repeat center right 10px, linear-gradient(left, #fff 0%, #fff 77%, #f2f2f2 78%, #f2f2f2 100%);
+}
+
 #ui-datepicker-div {
   width: 180px;
   padding: 0px !important;
@@ -9844,6 +10049,12 @@ footer .pagination-wrap a:last-child:after {
   background-color: #f1e68b;
 }
 .content .wrap-tabs #tabs9 .ui-state-active a {
+  color: #0065a0;
+}
+.content .wrap-tabs #tabs9 .ui-state-hover {
+  background-color: #f1e68b;
+}
+.content .wrap-tabs #tabs9 .ui-state-hover a {
   color: #0065a0;
 }
 .content .wrap-tabs #tabs9 .ui-widget-header {
@@ -10033,6 +10244,12 @@ footer .pagination-wrap a:last-child:after {
 .content .wrap-tabs #tabs10 .ui-state-active a {
   color: #fff;
 }
+.content .wrap-tabs #tabs10 .ui-state-hover {
+  background-color: #83d076;
+}
+.content .wrap-tabs #tabs10 .ui-state-hover a {
+  color: #fff;
+}
 .content .wrap-tabs #tabs10 .ui-widget-header {
   background: none;
   border: none;
@@ -10202,7 +10419,7 @@ footer .pagination-wrap a:last-child:after {
   outline: none;
   padding: 13px 23px;
 }
-.content .wrap-tabs #tabs11 .ui-state-active {
+.content .wrap-tabs #tabs11 .ui-state-active, .content .wrap-tabs #tabs11 .ui-state-hover {
   background: #fff;
 }
 .content .wrap-tabs #tabs11 .ui-widget-header {
@@ -10394,7 +10611,7 @@ footer .pagination-wrap a:last-child:after {
   outline: none;
   padding: 13px 23px;
 }
-.content .wrap-tabs #tabs12 .ui-state-active {
+.content .wrap-tabs #tabs12 .ui-state-active, .content .wrap-tabs #tabs12 .ui-state-hover {
   background: #fff;
 }
 .content .wrap-tabs #tabs12 .ui-widget-header {
@@ -10517,6 +10734,9 @@ footer .pagination-wrap a:last-child:after {
 }
 .content .wrap-tabs #tabs12 table tr td:last-child {
   border-right: none;
+}
+.content .wrap-tabs #tabs12 #tabs-3 table td {
+  width: 270px;
 }
 .content .btn-calc {
   position: absolute;

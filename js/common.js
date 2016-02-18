@@ -82,6 +82,9 @@
     $( "#selectmenu5" ).selectmenu();
     $( "#selectmenu6" ).selectmenu();
     $( "#selectmenu7" ).selectmenu();
+    $( "#selectmenu8" ).selectmenu();
+    $( "#selectmenu9" ).selectmenu();
+    $( "#selectmenu10" ).selectmenu();
   });   
 
 //Tabs
@@ -112,9 +115,47 @@
 
   $(function() {
       $.datepicker.setDefaults( $.datepicker.regional[ "ru" ] );
-      $( "#datepicker" ).datepicker({});
-      $( "#datepicker1" ).datepicker({});
-      $( "#datepicker2" ).datepicker({});
-      $( "#datepicker3" ).datepicker({});
-      $( "#datepicker4" ).datepicker({});   
-  });    
+      $( "#datepicker" ).datepicker({
+        dateFormat: 'dd/mm/yy'
+      });
+      $( "#datepicker1" ).datepicker({
+        dateFormat: 'dd/mm/yy'
+      });
+      $( "#datepicker2" ).datepicker({
+        dateFormat: 'dd/mm/yy'
+      });
+      $( "#datepicker3" ).datepicker({
+        dateFormat: 'dd/mm/yy'
+      });
+      $( "#datepicker4" ).datepicker({
+        dateFormat: 'dd/mm/yy'
+      });
+      $( "#datepicker5" ).datepicker({
+        dateFormat: 'dd/mm/yy'
+      });
+      $( "#datepicker6" ).datepicker({
+        dateFormat: 'dd/mm/yy'
+      });
+      $( "#datepicker7" ).datepicker({
+        dateFormat: 'dd/mm/yy'
+      });                     
+  });
+
+//Change forms
+   $(document).ready(function() {
+      $('.reg_pass .reg').on('click',function(){
+        event.preventDefault();
+        $('.forma').css('display','none');
+        $('#registration').css('display','block');   
+      });
+      $('.reg_pass .parol').on('click',function(){
+        event.preventDefault();
+        $('.forma').css('display','none');
+        $('#password').css('display','block');   
+      });     
+      $('.acces a').on('click',function(){
+        event.preventDefault();
+        $('.forma').css('display','none');
+        $('#acces').css('display','block');   
+      });      
+  }); 

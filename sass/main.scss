@@ -178,6 +178,7 @@ header{
 			}	
 		}
 		.wrap-forma{
+			min-height: 430px;
 			.forma{
 				position: relative;
 				width: 350px;
@@ -281,6 +282,293 @@ header{
 					}
 				}			
 			}
+			#registration{
+				position:absolute;
+				top: 0;
+				right: 15px;
+				display: none;
+				.wrap-forma{
+					position:relative;
+					width: 350px;
+					height: 430px;
+					background-color: #ffeb80;
+					border-radius: 40px;
+					box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);		
+					h3{
+						font-size: 19px;
+						font-weight: 700;
+						color: $textcolor;
+						text-transform: uppercase;
+						padding: 30px 0px;
+						margin: 0px;
+					}
+					input{
+						margin-bottom: 10px;
+						font-size: 15px;
+						color: #999;
+						padding-left: 20px;
+						@include input(279px,39px,20px);
+					}		
+					button{
+						@include button(279px,60px,#50a2cf,29px);
+						font-size: 19px;
+						font-weight: 700;
+						color: #ffeb80;
+						text-transform: uppercase;
+						margin-top: 30px;
+						&:hover{
+							background:$textcolor;
+						}
+					}
+				}		
+			}
+			#acces{
+				position:absolute;
+				top: 0;
+				right: 15px;
+				display: none;	
+				.formas{
+					position: relative;
+					width: 350px;
+					height: 390px;
+					background-color: #ffeb80;
+					border-radius: 40px;
+					box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);		
+					p{
+						font-size: 19px;
+						font-weight: 700;
+						color: $textcolor;
+						padding: 34px 0px 20px 0px;
+						span{
+							text-transform: uppercase;
+						}
+					}
+					input{
+						margin-bottom: 10px;
+						font-size: 15px;
+						color: #999;
+						padding-left: 20px;
+						@include input(279px,39px,20px);
+					}
+					.reg_pass{
+						margin: 15px 0px 0px;
+						a{
+							font-size: 14px;
+							font-weight: 600;
+							text-decoration: underline;
+							color: $textcolor;
+							&:hover{
+								text-decoration: none;
+							}
+						}
+						span{
+							display: inline-block;
+							font-size: 14px;
+							font-weight: 600;
+							color: $textcolor;
+							margin: 0px 15px;
+						}
+					}
+					#remember{
+					    display:none;
+					    opacity: 0;
+					    & +label{
+					    	width: 100%;
+					    	text-align: left;
+					    	cursor: pointer;
+					    	margin: 15px 0px 18px;
+					    	font-size: 14px;
+					    	font-weight: 600;
+					    	color: #666;
+					    	padding-left: 50px;
+					    }
+					    & +label span{
+						    display:inline-block;
+						    width:19px;
+						    height:19px;
+						    margin:-4px 8px 0 0;
+						    vertical-align:middle;
+						    background:#fff;
+						    border:4px solid #fff;
+						    border-radius:50%;
+						    cursor:pointer;		    	
+					    }
+					    &:checked +label span{
+					    	background-color: #f7d420;
+					    }
+					}					
+					button{
+						border:none;
+						font-size: 19px;
+						font-weight: 700;
+						color: #ffeb80;
+						text-transform: uppercase;
+						@include button(279px,60px,#50a2cf,29px);
+						margin-top: 20px;
+						&:hover{
+							background:$textcolor;
+						}
+					}
+					.acces{
+						height: 75px;
+						text-align: center;
+						position:absolute;
+						width: 100%;
+						bottom:0;
+						background-color: #efd51d;
+						border-radius:0px 0px 40px 40px;
+						a{
+							display: inline-block;
+							font-size: 14px;
+							font-weight: 600;
+							color: $textcolor;
+							text-decoration: underline;
+							margin-top: 23px;
+							&:hover{
+								text-decoration: none;
+							}
+						}
+					}			
+				}
+			}
+			#password{
+				position:absolute;
+				top: 0;
+				right: 15px;
+				display: none;	
+				.formas{
+					position: relative;
+					width: 350px;
+					height: 390px;
+					background-color: #ffeb80;
+					border-radius: 40px;
+					box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);		
+					p{
+						font-size: 19px;
+						font-weight: 700;
+						color: $textcolor;
+						padding: 34px 0px 20px 0px;
+						text-transform: uppercase;
+						margin-bottom: 0px;
+					}
+					span{
+						display: inline-block;
+						font-size: 14px;
+						line-height: 18px;
+						font-weight: 600;
+						color: #666;
+						margin:10px 0px;
+					}
+					input{
+						margin-bottom: 10px;
+						font-size: 15px;
+						color: #999;
+						padding-left: 20px;
+						@include input(279px,39px,20px);
+					}
+					.mobileOk{
+						input{
+							@include input(200px,39px,20px);
+							margin-bottom: 0px;
+							vertical-align: middle;
+							margin-right: 20px;
+						}
+						a{
+							display:inline-block;
+							font-size: 17px;
+							line-height: 39px;
+							font-weight: 700;
+							text-transform: uppercase;
+							color: #ffeb80;
+							@include button(64px,39px,#50a2cf,24px);
+							vertical-align: middle;
+							&:hover{
+								background:$textcolor;
+								text-decoration: none;					
+							}					
+						}	
+					}
+					.reg_pass{
+						margin: 15px 0px 0px;
+						a{
+							font-size: 14px;
+							font-weight: 600;
+							text-decoration: underline;
+							color: $textcolor;
+							&:hover{
+								text-decoration: none;
+							}
+						}
+						span{
+							display: inline-block;
+							font-size: 14px;
+							font-weight: 600;
+							color: $textcolor;
+							margin: 0px 15px;
+						}
+					}
+					#remember{
+					    display:none;
+					    opacity: 0;
+					    & +label{
+					    	width: 100%;
+					    	text-align: left;
+					    	cursor: pointer;
+					    	margin: 15px 0px 18px;
+					    	font-size: 14px;
+					    	font-weight: 600;
+					    	color: #666;
+					    	padding-left: 50px;
+					    }
+					    & +label span{
+						    display:inline-block;
+						    width:19px;
+						    height:19px;
+						    margin:-4px 8px 0 0;
+						    vertical-align:middle;
+						    background:#fff;
+						    border:4px solid #fff;
+						    border-radius:50%;
+						    cursor:pointer;		    	
+					    }
+					    &:checked +label span{
+					    	background-color: #f7d420;
+					    }
+					}					
+					button{
+						border:none;
+						font-size: 19px;
+						font-weight: 700;
+						color: #ffeb80;
+						text-transform: uppercase;
+						@include button(279px,60px,#50a2cf,29px);
+						margin-top: 15px;
+						&:hover{
+							background:$textcolor;
+						}
+					}
+					.acces{
+						height: 75px;
+						text-align: center;
+						position:absolute;
+						width: 100%;
+						bottom:0;
+						background-color: #efd51d;
+						border-radius:0px 0px 40px 40px;
+						a{
+							display: inline-block;
+							font-size: 14px;
+							font-weight: 600;
+							color: $textcolor;
+							text-decoration: underline;
+							margin-top: 23px;
+							&:hover{
+								text-decoration: none;
+							}
+						}
+					}			
+				}
+			}							
 		}		
 	}
 }
@@ -500,196 +788,7 @@ footer{
 	}	
 }
 
-#registration{
-	position:relative;
-	padding: 50px 150px;
-	display: none;
-	.fb-close{
-		position:absolute;
-		top:10px;
-		right: 110px;
-		cursor: pointer;
-	}		
-	.wrap-forma{
-		position:relative;
-		width: 350px;
-		height: 430px;
-		background-color: #ffeb80;
-		border-radius: 40px;
-		box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
-		&:after{
-			position:absolute;
-			content: url('../images/cloud1.png');
-			top: -35px;
-			left: -150px;
-			z-index: -1;
-		}
-		&:before{
-			position:absolute;
-			content: url('../images/cloud2.png');
-			bottom: -25px;
-			right: -60px;
-			z-index: -1;
-		}		
-		h3{
-			font-size: 19px;
-			font-weight: 700;
-			color: $textcolor;
-			text-transform: uppercase;
-			padding: 30px 0px;
-			margin: 0px;
-		}
-		input{
-			margin-bottom: 10px;
-			font-size: 15px;
-			color: #999;
-			padding-left: 20px;
-			@include input(279px,39px,20px);
-		}		
-		button{
-			@include button(279px,60px,#50a2cf,29px);
-			font-size: 19px;
-			font-weight: 700;
-			color: #ffeb80;
-			text-transform: uppercase;
-			margin-top: 30px;
-			&:hover{
-				background:$textcolor;
-			}
-		}
-	}		
-}
-
-#acces{
-	position:relative;
-	padding: 50px 150px;
-	display: none;
-	.fb-close{
-		position:absolute;
-		top:10px;
-		right: 110px;
-		cursor: pointer;
-	}		
-	.forma{
-		position: relative;
-		width: 350px;
-		height: 390px;
-		background-color: #ffeb80;
-		border-radius: 40px;
-		box-shadow: 0 19px 32px rgba(0, 102, 102, 0.27);
-		&:after{
-			position:absolute;
-			content: url('../images/cloud1.png');
-			top: -35px;
-			left: -150px;
-			z-index: -1;
-		}
-		&:before{
-			position:absolute;
-			content: url('../images/cloud2.png');
-			bottom: -25px;
-			right: -60px;
-			z-index: -1;
-		}		
-		p{
-			font-size: 19px;
-			font-weight: 700;
-			color: $textcolor;
-			padding: 34px 0px 20px 0px;
-			span{
-				text-transform: uppercase;
-			}
-		}
-		input{
-			margin-bottom: 10px;
-			font-size: 15px;
-			color: #999;
-			padding-left: 20px;
-			@include input(279px,39px,20px);
-		}
-		.reg_pass{
-			margin: 15px 0px 0px;
-			a{
-				font-size: 14px;
-				font-weight: 600;
-				text-decoration: underline;
-				color: $textcolor;
-				&:hover{
-					text-decoration: none;
-				}
-			}
-			span{
-				display: inline-block;
-				font-size: 14px;
-				font-weight: 600;
-				color: $textcolor;
-				margin: 0px 15px;
-			}
-		}
-		#remember{
-		    display:none;
-		    opacity: 0;
-		    & +label{
-		    	width: 100%;
-		    	text-align: left;
-		    	cursor: pointer;
-		    	margin: 15px 0px 18px;
-		    	font-size: 14px;
-		    	font-weight: 600;
-		    	color: #666;
-		    	padding-left: 50px;
-		    }
-		    & +label span{
-			    display:inline-block;
-			    width:19px;
-			    height:19px;
-			    margin:-4px 8px 0 0;
-			    vertical-align:middle;
-			    background:#fff;
-			    border:4px solid #fff;
-			    border-radius:50%;
-			    cursor:pointer;		    	
-		    }
-		    &:checked +label span{
-		    	background-color: #f7d420;
-		    }
-		}					
-		button{
-			border:none;
-			font-size: 19px;
-			font-weight: 700;
-			color: #ffeb80;
-			text-transform: uppercase;
-			@include button(279px,60px,#50a2cf,29px);
-			margin-top: 20px;
-			&:hover{
-				background:$textcolor;
-			}
-		}
-		.acces{
-			height: 75px;
-			text-align: center;
-			position:absolute;
-			width: 100%;
-			bottom:0;
-			background-color: #efd51d;
-			border-radius:0px 0px 40px 40px;
-			a{
-				display: inline-block;
-				font-size: 14px;
-				font-weight: 600;
-				color: $textcolor;
-				text-decoration: underline;
-				margin-top: 23px;
-				&:hover{
-					text-decoration: none;
-				}
-			}
-		}			
-	}
-}
-
-#thanks{
+#thanks,#ura{
 	position:relative;
 	padding: 50px 150px;
 	display: none;
@@ -775,7 +874,7 @@ footer{
 						padding:13px 23px;	
 					}
 				}
-			.ui-state-active{
+			.ui-state-active,.ui-state-hover {
 				background:#fff;
 			}	
 			.ui-widget-header{
@@ -910,7 +1009,10 @@ footer{
 				}
 			.ui-state-active{
 				background-color: #f1e68b;
-			}	
+			}
+			.ui-state-hover{
+				background-color: #f1e68b;
+			}				
 			.ui-widget-header{
 				background:none;
 				border:none;
@@ -1013,7 +1115,13 @@ footer{
 				& a{
 					color: #fff;
 				}
-			}	
+			}
+			.ui-state-hover{
+				background-color: #83d076;
+				& a{
+					color: #fff;
+				}
+			}				
 			.ui-widget-header{
 				background:none;
 				border:none;
@@ -1113,7 +1221,7 @@ footer{
 					}
 				}
 
-			.ui-state-active{
+			.ui-state-active,.ui-state-hover{
 				background-color: #83d076;
 				& a{
 					color: #fff;
@@ -1243,7 +1351,23 @@ footer{
 						}
 					}
 				}
-			}	
+			}
+			#selectmenu10-button {
+				width: 180px!important;
+				height: 29px;
+				background-color: white;
+				border: 1px solid #cfcfcf;
+				border-radius: 10px;
+				margin:3px 0px 4px;
+				.ui-selectmenu-text{
+					padding:3px 0px 0px 10px;
+					font-size: 15px;
+					color: #ccc;
+				}
+			}
+			#selectmenu10-button {
+				width: 240px!important;
+			}				
 		}
 	}
 	.btn-calc{
@@ -1275,6 +1399,25 @@ footer{
 	}	
 }
 
+#selectmenu9-menu {
+	background-color: white;
+	border: 1px solid #cfcfcf;
+	border-radius: 10px;
+	.ui-menu-item{
+		background:#fff;
+		padding:1px 0px 1px 8px;
+		margin:0;
+		border:none;
+		color: #ccc;
+	}
+	.ui-state-focus{
+		background:darken(#fff,4%);
+		color: darken(#ccc,30%);
+	}
+}
+#selectmenu9-button, #selectmenu9-button{
+	margin:0px 0px 10px 0px;
+}
 
 //////ADMIN_CABINET_ADD_CLIENT////////////
 .content{
@@ -1310,7 +1453,13 @@ footer{
 				& a{
 					color: $textcolor;
 				}
-			}	
+			}
+			.ui-state-hover{
+				background-color: #f1e68b;
+				& a{
+					color: $textcolor;
+				}
+			}				
 			.ui-widget-header{
 				background:none;
 				border:none;
@@ -1448,7 +1597,20 @@ footer{
 					font-size: 15px;
 					color: #ccc;
 				}
-			}						
+			}
+			#selectmenu8-button{
+				width: 243px!important;
+				height: 29px;
+				background-color: white;
+				border: 1px solid #cfcfcf;
+				border-radius: 10px;
+				margin:3px 0px 4px;
+				.ui-selectmenu-text{
+					padding:3px 0px 0px 10px;
+					font-size: 15px;
+					color: #ccc;
+				}
+			}									
 		}
 	}
 	.btn-calc{
@@ -1480,7 +1642,7 @@ footer{
 	}	
 }
 
-#selectmenu6-menu{
+#selectmenu6-menu,#selectmenu8-menu {
 	background-color: white;
 	border: 1px solid #cfcfcf;
 	border-radius: 10px;
@@ -1496,7 +1658,7 @@ footer{
 		color: darken(#ccc,30%);
 	}
 }
-#selectmenu6-button{
+#selectmenu6-button, #selectmenu8-button{
 	margin:0px 0px 10px 0px;
 }
 
@@ -1534,7 +1696,13 @@ footer{
 				& a{
 					color: $textcolor;
 				}
-			}	
+			}
+			.ui-state-hover{
+				background-color: #f1e68b;
+				& a{
+					color: $textcolor;
+				}
+			}				
 			.ui-widget-header{
 				background:none;
 				border:none;
@@ -1660,7 +1828,7 @@ footer{
 					}
 				}					
 			}
-			#selectmenu6-button,#selectmenu7-button{
+			#selectmenu6-button,#selectmenu7-button,#selectmenu9-button {
 				width: 180px!important;
 				height: 29px;
 				background-color: white;
@@ -1673,7 +1841,7 @@ footer{
 					color: #ccc;
 				}
 			}
-			#selectmenu7-button{
+			#selectmenu7-button,#selectmenu9-button {
 				width: 240px!important;
 			}						
 		}
@@ -1707,7 +1875,7 @@ footer{
 	}	
 }
 
-#selectmenu7-menu{
+#selectmenu7-menu,#selectmenu9-menu,#selectmenu10-menu{
 	background-color: white;
 	border: 1px solid #cfcfcf;
 	border-radius: 10px;
@@ -1723,7 +1891,7 @@ footer{
 		color: darken(#ccc,30%);
 	}
 }
-#selectmenu7-button{
+#selectmenu7-button,#selectmenu9-button,#selectmenu10-button {
 	margin:0px 0px 10px 0px;
 }
 
@@ -1757,7 +1925,7 @@ footer{
 					}
 				}
 
-			.ui-state-active{
+			.ui-state-active,.ui-state-hover {
 				background-color: #83d076;
 				& a{
 					color: #fff;
@@ -1996,7 +2164,13 @@ footer{
 				& a{
 					color: $textcolor;
 				}
-			}	
+			}
+			.ui-state-hover{
+				background-color: #f1e68b;
+				& a{
+					color: $textcolor;
+				}
+			}				
 			.ui-widget-header{
 				background:none;
 				border:none;
@@ -2230,7 +2404,13 @@ footer{
 				& a{
 					color: $textcolor;
 				}
-			}	
+			}
+			.ui-state-hover{
+				background-color: #f1e68b;
+				& a{
+					color: $textcolor;
+				}
+			}				
 			.ui-widget-header{
 				background:none;
 				border:none;
@@ -2372,7 +2552,7 @@ footer{
 	}	
 }
 
-#datepicker, #datepicker1, #datepicker2, #datepicker3, #datepicker4{
+#datepicker, #datepicker1, #datepicker2, #datepicker3, #datepicker4 {
     background:url('../images/calendar.png') no-repeat center right 10px, -moz-linear-gradient(left, #fff 0%, #fff 77%, #f2f2f2 78%, #f2f2f2 100%);
     background:url('../images/calendar.png') no-repeat center right 10px, -webkit-linear-gradient(left, #fff 0%,#fff 77%,#f2f2f2 78%,#f2f2f2 100%);
     background:url('../images/calendar.png') no-repeat center right 10px, -o-linear-gradient(left, #fff 0%,#fff 77%,#f2f2f2 78%,#f2f2f2 100%);
@@ -2382,7 +2562,12 @@ footer{
 	&:-moz-placeholder           {color:$textcolor;}/* Firefox 18- */
 	&:-ms-input-placeholder      {color:$textcolor;}	
 }
-
+#datepicker5,#datepicker6,#datepicker7 {
+    background:url('../images/calendar.png') no-repeat center right 10px, -moz-linear-gradient(left, #fff 0%, #fff 77%, #f2f2f2 78%, #f2f2f2 100%);
+    background:url('../images/calendar.png') no-repeat center right 10px, -webkit-linear-gradient(left, #fff 0%,#fff 77%,#f2f2f2 78%,#f2f2f2 100%);
+    background:url('../images/calendar.png') no-repeat center right 10px, -o-linear-gradient(left, #fff 0%,#fff 77%,#f2f2f2 78%,#f2f2f2 100%);
+    background:url('../images/calendar.png') no-repeat center right 10px, linear-gradient(left, #fff 0%,#fff 77%,#f2f2f2 78%,#f2f2f2 100%);
+}
 #ui-datepicker-div{
 	width:180px;
 	padding:0px!important;
@@ -2465,7 +2650,13 @@ footer{
 				& a{
 					color: $textcolor;
 				}
-			}	
+			}
+			.ui-state-hover{
+				background-color: #f1e68b;
+				& a{
+					color: $textcolor;
+				}
+			}				
 			.ui-widget-header{
 				background:none;
 				border:none;
@@ -2654,7 +2845,13 @@ footer{
 				& a{
 					color: #fff;
 				}
-			}	
+			}
+			.ui-state-hover{
+				background-color: #83d076;
+				& a{
+					color: #fff;
+				}
+			}				
 			.ui-widget-header{
 				background:none;
 				border:none;
@@ -2825,7 +3022,7 @@ footer{
 						padding:13px 23px;	
 					}
 				}
-			.ui-state-active{
+			.ui-state-active,.ui-state-hover{
 				background:#fff;
 			}	
 			.ui-widget-header{
@@ -3023,7 +3220,7 @@ footer{
 						padding:13px 23px;	
 					}
 				}
-			.ui-state-active{
+			.ui-state-active,.ui-state-hover {
 				background:#fff;
 			}	
 			.ui-widget-header{
@@ -3151,6 +3348,13 @@ footer{
 						&:last-child{
 							border-right:none;
 						}						
+					}
+				}
+			}
+			#tabs-3{
+				table{
+					td{
+						width: 270px;
 					}
 				}
 			}							
