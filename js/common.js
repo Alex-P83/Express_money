@@ -157,5 +157,10 @@
         event.preventDefault();
         $('.forma').css('display','none');
         $('#acces').css('display','block');   
-      });      
+      });
+      $('.acces1 a').on('click',function(){
+        event.preventDefault();
+        $('#acces').css('display','none');
+        $('.forma').css('display','block');  
+      });           
   }); 
